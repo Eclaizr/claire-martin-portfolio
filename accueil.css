@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Arsenal&family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;400&family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Configuration de la barre de naviguation */
+
+nav {
+    position: sticky;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    background: #ffffff;
+    box-shadow: inset 0px -1px 0px #c5c5c6;
+    margin-bottom:20px;
+    top:0;
+    z-index: 10;
+}
+
+/* Configuration de l'icone à côté de mon Nom + Prénom */
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-icon img {
+    width: 40px;
+    transform: rotate(-17deg) translateX(5px);
+}
+
+/* Représente le hamburger en haut à gauche */
+
+.menu {
+    display: none; 
+}
+
+/* Concerne les Navlinks, les liens dans la barre de menu */
+
+.navlinks-container a {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Aldrich', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    position: relative;
+}
+
+/* Animation barre de menu */
+
+.navlinks-container a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    height: 1px;
+   transform: scaleX(0);
+   transform-origin: left;
+   background: #000000;
+   transition: transform 0.3s ease-out;
+}
+
+.navlinks-container a:hover::after {
+    transform: scaleX(1);
+}
+
+.nav-authentication{
+    margin-left: auto;
+}
+
+.user-toggler {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    nav {
+        padding: 15px 20px;
+        position: relative;
+    }
+
+    .nav-icon {
+        order: 2;
+        margin: 0 auto;
+    }
+
+    .nav-icon span {
+        font-size: 22px;
+    }
+
+    .main-navlinks {
+        order:1;
+    }
+
+        /*hamb*/
+    .menu {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        border: none;
+        display: flex;
+        background: #ffffff;/*carré sur l'hamb'*/
+        align-items: center;
+        position: relative;
+    }
+
+    .menu span {
+        display: block;
+        width: 100%;
+        height: 2.5px; /* largeur de l'hamburger */
+        background: #000000; /* couleur de l'hamburger*/
+        position: absolute;
+        pointer-events: none;
+        transition: opacity 0.3s 0.15s ease-out;
+    }
+
+    .menu span:nth-child(1),
+    .menu span:nth-child(3) {
+        transition: transform 0.3s ease-out;
+    }
+
+    .menu span:nth-child(1) {
+        transform: translateY(7px);
+
+    }
+
+    .menu span:nth-child(3) {
+        transform: translateY(-7px);
+
+    }
+
+    .menu.open span:nth-child(1) {
+        transform: translate(0) rotate(135deg);
+    }
+
+    .menu.open span:nth-child(2) {
+        opacity: 0;
+        transition: opacity 0s ease-out;
+    }
+
+    .menu.open span:nth-child(3) {
+        transform: translate(0) rotate(-135deg);
+    }
+
+    .navlinks-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        background: #ffffff;/*couleur de la bande après clic sur l'hamb*/
+        font-size: 4em ;
+        top: 100%;
+        left: 0;
+        height: 100vh;
+        padding: 15px 50px 15px 20px;
+        border-right: 1px solid #00000076;/*bord droit de la bande*/
+        transform: translate(-100%); /*on le met à gauche (caché)*/
+    }
+    .open {
+        transform: translate(0%);
+    }
+    .navlinks-container a {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+}
+
+
+@media (max-width:500px){
+    .nav-icon img {
+        width: 30px;
+    }
+    .nav-icon span {
+        font-size: 20px;
+    }
+}
+
+img{
+    width: 20px;
+}
+
+/* titre de la page*/
+.nav-icon span {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 400;
+    color: #000000;/*couleur du titre*/
+}
+
+/* Corps de la page */
+
+body {
+    /*background-color: #ffffff;*/
+    /*background-image: url('./technology.jpg');
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.607);
+    min-height: 100px;
+    height: fit-content;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#header {
+    margin: -30px;
+    width: 105%;
+    height:93vh;
+    background: url(images/claire-martin-self-portrait.png);
+    background-size: cover;
+    background-position: 85% 50%;
+   
+}
+
+#header p {
+    margin-left: 100px;
+}
+
+
