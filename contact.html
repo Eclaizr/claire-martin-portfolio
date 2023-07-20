@@ -44,7 +44,7 @@
         <div class="contact form">
             <h3>Send a message ! </h3>
 
-            <form>
+            <form action="" name="contact-me">
 
                 <!--first name-->
                 <div class="formBox">
@@ -128,6 +128,21 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.513030814105!2d7.0710630000000005!3d43.616679999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cc2b189f26fbf1%3A0xc129586371de6697!2sIUT%20Nice%20C%C3%B4te%20d&#39;Azur%20-%20Site%20de%20Sophia%20Antipolis%20(INFO%20(Alternance)%2C%20QLIO%2C%20R%26T%2C%20SD%20(ancien%20STID))!5e0!3m2!1sen!2sfr!4v1689759109944!5m2!1sen!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
+
+    <!--to send to sheets-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwnh8E4b_SgsdRfb9xJveiN4Fv8WVWCKvJtHQw7t2rrOz9C8nVKCKyJDGfFMhfv_Pw9/exec'
+        const form = document.forms['contact-me']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
     </body>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
