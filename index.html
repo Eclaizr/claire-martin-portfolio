@@ -15,3 +15,39 @@
 
     <input type="submit" value="Envoyer">
   </form>
+
+  <script>
+    const form = document.getElementById('monFormulaire');
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const nom = document.getElementById('nom').value;
+      const email = document.getElementById('email').value;
+      sendDataToGoogleSheets(nom, email);
+    });
+
+    function sendDataToGoogleSheets(nom, email) {
+      const apiKey = 'AIzaSyBkNbps_CGyxXC56w4Gq-HV5yWCn6Vf-pc';
+      const spreadsheetId = '1HzrOOPZlieFrFcJ5HWmfp-FHXU8MA-RwyqPPZf8xZOs';
+
+      const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/Feuille1!A:B:append?valueInputOption=RAW&key=${apiKey}`;
+
+      const data = {
+        values: [
+          [nom, email]
+        ]
+      };
+
+      fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+      .then(response => console.log('Données envoyées à Google Sheets.'))
+      .catch(error => console.error('Erreur lors de l\'envoi des données.', error));
+    }
+  </script>
+
+  </body>
+  </html>
