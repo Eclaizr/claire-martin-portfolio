@@ -32,116 +32,11 @@
         </div>
     </nav>
     
-
-    <div class="contact-me">
-        <div class="title">
-            <h2>Contact me</h2>
+    <div class="contact-info">
+        <div class="card">
+            <i class="card-icon far fa-envelope"></i>
         </div>
     </div>
-
-    <div class="box">
-        <!--Form-->
-        <div class="contact form">
-            <h3>Send a message !! </h3>
-
-            <form action="" name="contact-me">
-
-                <!--first name-->
-                <div class="formBox">
-                    <div class="row50">
-                        <div class="inputBox">
-                            <span>First Name</span>
-                            <input type="text" name="first_name" id="first_name" placeholder="Marie" required>
-                        </div>
-                    
-                        <!--last name-->
-                        <div class="inputBox">
-                            
-                            <span>Last Name</span>
-                            <input type="text" name="name" id="name" placeholder="Dupont" required>
-                        </div>
-                    </div>
-
-                    <!-- mail -->
-                    <div class="row50">
-                        <div class="inputBox">
-                            <span>Email</span>
-                            <input type="email" name="mail" id="mail" placeholder="mariedupont@email.com" required>
-                        </div>
-
-                    <!--mobile-->
- 
-                        <div class="inputBox">
-                            <span>Mobile</span>
-                            <input type="text" name="mobile" id="mobile" placeholder="+33 7 81 67 39 58">
-                        </div>
-                    </div>
-
-                    <!--message-->
-                    <div class="row100">
-                        <div class="inputBox">
-                            <span>Message</span>
-                            <textarea name="msg" id="msg" placeholder="Write your message here..."></textarea>
-                        </div>
-                    </div>
-
-                    <div class="row100">
-                        <div class="inputBox">
-                            <input type="submit" value="Send">
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-
-        <!--Info Box-->
-        <div class="contact info">
-            <h3>Contact Info</h3>
-            <div class="infoBox">
-                <!--localisation-->
-                <div>
-                    <span><ion-icon name="location"></ion-icon></span>
-                    <p>IUT Nice Côte d'Azur, Campus SophiaTech <br>FRANCE</p>
-                </div>
-                
-                <!--mail-->
-                <div>
-                    <span><ion-icon name="mail"></ion-icon></span>
-                    <a href="mailto:claire.martin8@etu.univ-cotedazur.fr">claire.martin8@etu.univ-cotedazur.fr</a>
-                </div>
-
-                <!--mobile-->
-                <div>
-                    <span><ion-icon name="call"></ion-icon></span>
-                <a href="tel:+33781673958">+33 7 81 67 39 58</a>
-                </div>
-
-                <!--Social Media-->
-                <ul class="sci">
-                    <li><a href="https://www.linkedin.com/in/claire-martin-4090341ab?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnsWO%2BL%2BeSuecVuCawuRCpg%3D%3D" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                </ul>
-
-            </div>
-        </div>
-
-        <!--Map-->
-        <div class="contact map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.513030814105!2d7.0710630000000005!3d43.616679999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cc2b189f26fbf1%3A0xc129586371de6697!2sIUT%20Nice%20C%C3%B4te%20d&#39;Azur%20-%20Site%20de%20Sophia%20Antipolis%20(INFO%20(Alternance)%2C%20QLIO%2C%20R%26T%2C%20SD%20(ancien%20STID))!5e0!3m2!1sen!2sfr!4v1689759109944!5m2!1sen!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
-
-    <!--to send to sheets-->
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwnh8E4b_SgsdRfb9xJveiN4Fv8WVWCKvJtHQw7t2rrOz9C8nVKCKyJDGfFMhfv_Pw9/exec';
-        const form = document.forms['contact-me']
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
 
 
     </body>
