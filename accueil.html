@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="accueil.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="accueil.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="accueil_details.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="contact.css">
+    <link rel="stylesheet" href="https://cdn.boxicons.com/2.0.7/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Claire Martin</title>
 </head>
 <body>
@@ -23,26 +29,90 @@
             </button>
             <div class="navlinks-container">
                 <a href="#" aria-current="page">Accueil</a>
-                <a href="#">Ma Formation</a>
+                <a href="#about">À propos de moi</a>
                 <a href="#">Mes compétences</a>
                 <a href="#">Centres d'intérêts</a>
-                <a href="contact.html">Contact</a>
+                <a href="#contact">Contact</a>
             </div>
-
-            
         </div>
     </nav>
     
     <!--header text-->
 
-    <div id="header">
-            <p>Technicienne supérieure <br /> en cours formation </p>
-            <h1>Bonjour,<br />je suis Claire Martin,<br /> bienvenue sur mon site ! </h1>
-    <!--header-->
-    <!--image-->
-    </div>
+        <!-- home section design -->
 
-    
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Bonjour, c'est moi</h3>
+                <h1>Claire Martin</h1>
+                <h3>Je suis <span>étudiante</span></h3>
+                <p>À la rentrée 2023 je serai étudiante en 2e année de B.U.T. réseaux et télécommunications en alternance chez Ineo Defense.
+                    Je vous souhaite une bonne visite de mon site !
+                </p>
+
+                <div class="social-media">
+                    <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                </div>
+                <a href="#" class="btn">French CV</a>
+                <a href="#" class="btn">English CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="images/home.png" alt="picture of me">
+            </div>
+        </section>
+
+
+        <!-- à propos  formation etc -->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/claire.png" alt="photo de moi de dos dans un près">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">À propos de <span>moi</span></h2>
+                <h3>Technicienne supérieure en cours de formation</h3>
+                <p>Blablablablablablablablabla</p>
+                <a href="#" class="btn">Voir plus</a>
+            </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+        
+
+        <!-- contact -->
+<section class="contact" id="contact">
+
+    <h1>Me contacter</h1>
+
+        <div class="contact-info-container">
+            <div class="contact-info">
+                <div class="card">
+                    <a href="mailto:claire.martin8@etu.univ-cotedazur.fr"></a>
+                    <i class="card-icon far fa-envelope"><a href="mailto:claire.martin8@etu.univ-cotedazur.fr"></a></i>
+                    <p><a href="mailto:claire.martin8@etu.univ-cotedazur.fr">claire.martin8@etu.univ-cotedazur.fr</a> <br/> <br />
+                    <a href="mailto:claire.mrtn13@gmail.com">claire.mrtn13@gmail.com</a></p>
+                </div>
+        
+                <div class="card">
+                    <i class="card-icon fa-solid fa-phone"></i>
+                    <p><a href="tel:+33781673958"></a>+33 7 81 67 39 58</p>
+                </div>
+        
+                <div class="card">
+                    <i class="card-icon fa-solid fa-location-dot"></i>
+                    <p>I.U.T. Sophia-Antipolis, FRANCE</p>
+                </div>
+            </div>
+        </div>
+</section>
+        <!-- icons js-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
 

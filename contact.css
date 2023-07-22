@@ -7,13 +7,13 @@
     box-sizing: border-box;
 }
 
-body {
+.contact{
     background: #f1f1f1;
     min-height: 100vh;
     background: url(images/windows.jpg);
 }
 
-h1 {
+.contact h1 {
     text-align: center;
     font-family: 'Aldrich', sans-serif;
     color: #033E8C;
