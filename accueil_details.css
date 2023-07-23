@@ -78,6 +78,7 @@ span {
     margin: 2rem 1.5rem 3rem 0;
     transition: .5s ease;
     margin: 8px;
+    margin-left: 50px;
 }
 
 .social-media a:hover{

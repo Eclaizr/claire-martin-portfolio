@@ -232,7 +232,8 @@ nav {
     }
 
     .about .about-content .btn {
-        margin-left: 20px;
+        margin-left: 40px;
+        font-size: 0.7rem;
     }
     
     .about .about-img img {
