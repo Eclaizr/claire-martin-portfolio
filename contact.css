@@ -20,6 +20,12 @@
     margin-top: 100px;
 }
 
+.contact-p p { /* Texte avant les icones et cases contenant les coordonnées */
+    text-align: center;
+    color: #033E8C;
+    font-size: 1.5rem;
+}
+
 .contact-info-container {
     margin-top: 100px;
     display: flex;
@@ -100,3 +106,4 @@
         margin-top: 10px;
     }
 }
+

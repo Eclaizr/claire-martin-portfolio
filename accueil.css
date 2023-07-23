@@ -91,7 +91,7 @@ nav {
 @media (max-width: 1100px) {
     nav {
         padding: 15px 20px;
-        position: relative;
+        position: fixed;
     }
 
     .nav-icon {
@@ -171,12 +171,91 @@ nav {
         border-right: 1px solid #00000076;/*bord droit de la bande*/
         transform: translate(-100%); /*on le met à gauche (caché)*/
     }
+
     .open {
         transform: translate(0%);
     }
+
     .navlinks-container a {
         font-size: 18px;
         margin: 10px 0px;
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -40px;
+    }
+
+    .home .home-content h3 {
+        font-size: 1.6rem;
+        padding: 0;
+    }
+
+    .home .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home .home-content p {
+        font-size: 1rem;
+    }
+
+
+    .home .btn {
+        font-size: 0.7rem;
+    }
+
+    .home .home-img img {
+        width: 60%;
+        margin-top: -40px;
+        margin-left: 60px;
+    }
+
+    section .contact {
+        margin-top: -20px;
+        padding: 1rem 9% 2rem;
+    }
+
+    .about {
+        margin-top: 0;
+        flex-direction: column-reverse;
+    }
+
+    .about .about-content {
+        margin-top: 20px;
+        margin: 60px;
+    }
+
+    .heading h2 {
+        margin-top: 10px;
+    }
+
+    .about .about-content .btn {
+        margin-left: 20px;
+    }
+    
+    .about .about-img img {
+        margin-top: -120px;
+        width: 250px;
+    }
+
+    .about .about-content h2 {
+        font-size: 2.2rem;
+        margin-top: 10px;
+    }
+
+    .about .about-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .about .about-content p {
+    font-size: 1rem;
+    margin: 2rem 0 3rem;
+    }
+
+    .contact {
+        padding: 1rem 9% 2rem;
     }
 }
 
@@ -239,4 +318,6 @@ header{
     margin-left: 100px;
 }
 
-
+footer {
+    background: #ffffff;
+}
