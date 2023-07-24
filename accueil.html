@@ -17,8 +17,8 @@
 <!-- BARRE DE MENU -->
     <nav>
         <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
-            <img src="images/chat.png" alt="cat's head">
-            <span>Claire Martin</span>
+            <!-- <img src="images/chat.png" alt="cat's head"> -->
+            <p> <span>C</span>laire <span>M</span>artin</p>
         </a>
 
         <div class="main-navlinks">
@@ -28,11 +28,11 @@
                 <span></span>              
             </button>
             <div class="navlinks-container">
-                <a href="#" aria-current="page">Accueil</a>
+                <a href="#home" aria-current="page">Accueil</a>
                 <a href="#about">À propos de moi</a>
                 <a href="#">Mes compétences</a>
                 <a href="#">Centres d'intérêts</a>
-                <a href="#contact">Contact</a>
+                <a href="#contact">Contact </a>
             </div>
         </div>
     </nav>
@@ -43,9 +43,9 @@
 
         <section class="home" id="home">
             <div class="home-content">
-                <h3>Bonjour, c'est moi</h3>
+                <h3>Bonjour, je suis</h3>
                 <h1>Claire Martin</h1>
-                <h3>Je suis <span>étudiante</span></h3>
+                <h3><span class="multiple-text"></span></h3>
                 <p>À la rentrée 2023 je serai étudiante en 2e année de B.U.T. réseaux et télécommunications en alternance chez Ineo Defense.
                     Je vous souhaite une bonne visite de mon site !
                 </p>
@@ -122,15 +122,24 @@
 
 
 <footer>
-    <p>© Made by heart, by CM</p>
+    <div class="footer-content">
+        <p class="footer-text">Made with <ion-icon name="heart-outline"></ion-icon>, by CM.</p>
+            <div class="footer-iconTop">
+                <a href="#home"><ion-icon name="chevron-up-circle-outline"></ion-icon></a>
+            </div>
+    </div>
 </footer>
         <!-- icons js-->
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <!-- typed js -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
     </body>
 </html>
 
 <!-- JAVASCRIPT -->
 <script src="accueil.js"></script>
+<script src="script.js"></script>
+

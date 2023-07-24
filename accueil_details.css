@@ -35,7 +35,23 @@ section .about-content {
 .home-img img {
     width: 35vw;
     margin-top: 50px;
+    animation: floatImage 4s ease-in-out infinite;
 }
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-0.7rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
@@ -83,7 +99,7 @@ span {
 
 .social-media a:hover{
     background: var(--main-color);
-    color: var(--second-bg-color);
+    color: #fff;
     box-shadow: 0 0 1rem var(--main-color);
 }
 
@@ -151,6 +167,36 @@ span {
     margin: 2rem 0 3rem;
 }
 
-/* PORTFOLIO */
+/* footer */
+footer {
+    background: #eeeaf2;
+    padding: 1rem 9%;
+}
 
-/* contact */ 
+/* Styles pour le conteneur du contenu du footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles pour le texte du footer */
+.footer-text {
+    font-size: .8rem;
+    margin: 0; /* Supprime les marges par défaut pour éviter les espaces indésirables */
+}
+
+/* Styles pour l'icône du footer */
+.footer-iconTop a {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    background: #4fbae5;
+    border-radius: 0.8rem;
+    color: #755396;
+}
+
+.footer-iconTop a:hover {
+    box-shadow: 0 0 1rem #ddbdfe;
+    color: #fff;
+}
