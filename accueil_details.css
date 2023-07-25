@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,14 +16,14 @@ body {
 
 section {
     margin-top: -90px;
-    min-height: 100vh;
+    min-height: 107vh;
     padding: 5rem 9% 2rem;
     box-shadow: 40px 10px 40px rgb(105, 8, 104)
     
 }
 
 .home-content {
-    margin: 70px;
+    margin: 48px;
 }
 
 section .about-content {
@@ -72,6 +75,7 @@ span {
     font-weight: 700;
     line-height: 1.3;
     color: #fff;
+    
 }
 
 .home-content p {
@@ -141,6 +145,41 @@ span {
     box-shadow: #000000;
 }
 
+/* POLICE !! */
+.home-content p {
+    font-family: 'Alata', sans-serif;
+}
+
+.home-content h1 {
+    font-family: 'Alata', sans-serif;
+}
+
+.home-content h3 {
+    font-family: 'Alata', sans-serif;
+}
+
+.about-content p {
+    font-family: 'Alata', sans-serif;
+}
+
+.about-content h2 {
+    font-family: 'Alata', sans-serif;
+}
+
+.about-content h3 {
+    font-family: 'Alata', sans-serif;
+}
+
+.contact-p p {
+    font-family: 'Alata', sans-serif;
+}
+
+.contact h1 {
+    font-family: 'Alata', sans-serif;
+}
+
+
+/* Section about */
 .about-img img {
     width: 25vw;
     border-radius: 20%;
@@ -169,7 +208,7 @@ span {
 
 /* footer */
 footer {
-    background: #eeeaf2;
+    background: #f4f4f6;
     padding: 1rem 9%;
 }
 
@@ -199,4 +238,155 @@ footer {
 .footer-iconTop a:hover {
     box-shadow: 0 0 1rem #ddbdfe;
     color: #fff;
+}
+
+/* SKILLS !!! */
+.skills_container {
+    row-gap: 0;
+    margin-top: 40px;
+}
+
+.skills_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.skills_icon,
+.skills_arrow {
+    font-size: 2rem;
+    color: #582480;
+}
+
+.skills_icon {
+    margin-right: 15px;
+}
+
+.skills_title {
+    font-size: 1.2rem;
+}
+
+.skills_subtitle {
+    font-size: var(--small-font-size);
+    color: #582480;
+}
+
+.section_subtitle {
+    font-size: var(--small-font-size);
+    color: #582480;
+}
+
+.skills_arrow {
+    margin-left: auto;
+    transition: 4s;
+}
+
+.skills_list {
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+    display: grid;
+  }
+
+.skills_title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills_name {
+    font-size: .9rem;
+    font-weight: medium;
+}
+
+.skills_bar,
+.skills_percentage {
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills_bar {
+    background-color: #8c72a0;
+}
+
+.skills_percentage {
+    display: block;
+    background-color: #ffffff;
+}
+
+/* skills bar */
+
+.skills_python {
+    width: 70%;
+}
+
+.skills_c {
+    width: 70%;
+}
+
+.skills_html {
+    width: 80%;
+}
+
+.skills_css {
+    width: 80%;
+}
+
+.skills_php {
+    width: 50%;
+}
+
+.skills_js {
+    width: 50%;
+}
+
+.skills_sql {
+    width: 60%;
+}
+
+.skills_myadmin {
+    width: 70%;
+}
+
+.skills_cisco {
+    width: 70%;
+}
+
+.skills_ws {
+    width: 70%;
+}
+
+.skills_pkt {
+    width: 80%;
+}
+
+.skills_clsv {
+    width: 65%;
+}
+
+.skills_section {
+    background: #b991e1;
+}
+
+.skills_close .skills_list {
+    height: 0;
+    overflow: hidden;
+}
+
+.skills_open .skills_list {
+    height: max-content;
+    margin-bottom: 20px;
+}
+
+.skills_open .skills_arrow {
+    transform: rotate(-180deg);
+}
+
+.skills_number {
+    color: #582480;
+    font-size: .9rem;
+}
+
+.skills_section {
+    margin-bottom: 45px;
 }
