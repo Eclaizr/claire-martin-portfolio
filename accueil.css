@@ -223,6 +223,10 @@ nav {
         margin-left: 60px;
     }
 
+    .social-media a {
+        width: 7rem;
+    }
+    
     section .contact {
         margin-top: -20px;
         padding: 1rem 9% 2rem;
@@ -332,4 +336,44 @@ header{
 
 footer {
     background: #ffffff;
+}
+
+/* sous menus */
+
+
+/* Pour aligner le menu "À propos de moi" avec les autres menus */
+.parent-item {
+    display: inline-block;
+    position: relative;
+}
+
+.parent-item a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'Alata', sans-serif;
+    text-decoration: none;
+    color: #818181;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff; /* couleur de fond souhaitée */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 60px;
+}
+
+.parent-item:hover .sub-menu {
+    display: block;
+}
+
+.navlinks-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }

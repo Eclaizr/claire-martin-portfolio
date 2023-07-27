@@ -114,7 +114,7 @@ span {
     border-radius: 4rem;
     box-shadow: 0 0 1rem #d093ff;
     margin: 10px;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: #fff;
     letter-spacing: .1rem;
     font-weight: 600;
@@ -337,7 +337,7 @@ footer {
 }
 
 .skills_js {
-    width: 50%;
+    width: 30%;
 }
 
 .skills_sql {
