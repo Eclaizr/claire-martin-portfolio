@@ -96,6 +96,31 @@ nav {
 }
 
 @media (max-width: 1100px) {
+
+    /* sous menu gestion ecran reduit */
+
+    .parent-item {
+        position: relative;
+        font-size: 1.2rem;
+    }
+
+    .navlinks-container .parent-item a {
+        font-size: 1.2rem;
+    }
+
+    .sub-menu {
+        display: block;
+        position: relative;
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 1.2rem; /* taille de la police */
+        width: auto; /* la largeur selon vos besoins */
+        z-index: 1;
+    }
+
+    /* menu */
+
     nav {
         padding: 15px 20px;
         position: fixed;
@@ -273,6 +298,7 @@ nav {
     .contact {
         padding: 1rem 9% 2rem;
     }
+
 }
 
 
@@ -349,7 +375,7 @@ footer {
 
 .parent-item a {
     display: block;
-    padding: 10px 15px;
+    padding: 8px 0px;
     font-size: 1.4rem;
     font-weight: 500;
     font-family: 'Alata', sans-serif;
@@ -376,4 +402,8 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+#portfolio {
+    margin-bottom: 50px;
 }
