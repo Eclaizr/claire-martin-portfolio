@@ -299,8 +299,10 @@ nav {
         padding: 1rem 9% 2rem;
     }
 
+    .fillter-buttons {
+        margin: 2.5rem 0;
+    }
 }
-
 
 @media (max-width:500px){
     .nav-icon img {
@@ -405,5 +407,5 @@ footer {
 }
 
 #portfolio {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }

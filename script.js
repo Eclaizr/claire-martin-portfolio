@@ -50,3 +50,6 @@ function toggleSkills(){
 skillsHeader.forEach((el) =>{
     el.addEventListener('click', toggleSkills)
 })
+
+// mix it up portfolio section
+var mixer = mixitup('.portfolio-gallery');

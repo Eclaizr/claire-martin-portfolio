@@ -57,7 +57,7 @@
                 </p>
 
                 <div class="social-media">
-                    <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
                 </div>
                 <a href="cv/R212_MARTIN_CV.pdf" target="_blank"no class="btn" >CV Français <i class="uil uil-download-alt"></i></a>
                 <a href="#" class="btn">English CV <i class="uil uil-download-alt"></i></a>
@@ -293,14 +293,14 @@
 
             <div class="container">
                 <div class="fillter-buttons">
-                    <button class="btn">All</button>
-                    <button class="btn">Informatique</button>
-                    <button class="btn">Réseau</button>
-                    <button class="btn">Autre</button>
+                    <button class="btn" data-filter="all">Tout</button>
+                    <button class="btn" data-filter=".info">Informatique</button>
+                    <button class="btn" data-filter=".reseau">Réseau</button>
+                    <button class="btn" data-filter=".autre">Autre</button>
                 </div>
 
                 <div class="portfolio-gallery">
-                    <div class="port-box">
+                    <div class="port-box mix autre">
                         <div class="port-image">
                             <img src="images/photo_cameleon.png" alt="">
                         </div>
@@ -314,7 +314,7 @@
                         </div>
                     </div>
 
-                    <div class="port-box">
+                    <div class="port-box mix info">
                         <div class="port-image">
                             <img src="images/catmosphere.png" alt="">
                         </div>
@@ -381,6 +381,8 @@
         <!-- typed js -->
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
+        <!-- mixitup -->
+        <script src="mixitup.min.js"></script>
     </body>
 </html>
 
