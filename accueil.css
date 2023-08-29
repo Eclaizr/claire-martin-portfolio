@@ -26,7 +26,7 @@ nav {
     padding: 15px 25px;
     background: #ffffff;
     box-shadow: inset 0px -1px 0px #c5c5c6;
-    margin-bottom:20px;
+    margin-bottom:0px;
     top:0;
     z-index: 10;
 }
@@ -348,19 +348,18 @@ header{
     align-items: center;
 }
 
+/*
 #header {
     margin: -30px;
     width: 105%;
     height:93vh;
-    background: url(images/claire-martin-self-portrait.png);
+    background: url(images/work.jpeg);
     background-size: cover;
     background-position: 85% 50%;
    
 }
+*/
 
-#header p {
-    margin-left: 100px;
-}
 
 footer {
     background: #ffffff;

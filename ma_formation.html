@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" media="screen" type="text/css" href="accueil.css">
-    <link rel="stylesheet" media="screen" type="text/css" href="accueil_details.css">
     <link rel="stylesheet" media="screen" type="text/css" href="ma_formation.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="accueil_details.css">
     <link rel="stylesheet" href="https://cdn.boxicons.com/2.0.7/css/boxicons.min.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
@@ -16,32 +16,211 @@
 <body>
 
 <!-- BARRE DE MENU -->
-<nav>
-    <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
-        <!-- <img src="images/chat.png" alt="cat's head"> -->
-        <p> <span>C</span>laire <span>M</span>artin</p>
-    </a>
+    <nav>
+        <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
+            <!-- <img src="images/chat.png" alt="cat's head"> -->
+            <p> <span>C</span>laire <span>M</span>artin</p>
+        </a>
 
-    <div class="main-navlinks">
-        <button class="menu" type="button" aria-label="Toggle naviguation" aria-expanded="false">
-            <span></span>
-            <span></span>
-            <span></span>              
-        </button>
-        <div class="navlinks-container">
-            <a href="accueil.html" aria-current="page">Accueil</a>
-            <div class="parent-item">
-                <a href="accueil.html#about">À propos de moi</a>
-                <ul class="sub-menu">
-                    <li><a href="ma_formation.html">Ma formation</a></li>
-                </ul>
+        <div class="main-navlinks">
+            <button class="menu" type="button" aria-label="Toggle naviguation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>              
+            </button>
+            <div class="navlinks-container">
+                <a href="accueil.html#home" aria-current="page">Accueil</a>
+                <div class="parent-item">
+                    <a href="accueil.html#about">À propos de moi</a>
+                    <ul class="sub-menu">
+                        <li><a href="ma_formation.html">Ma formation</a></li>
+                    </ul>
+                </div>
+                <a href="accueil.html#portfolio">Projets</a>
+                <a href="accueil.html#skills">Mes compétences</a>
+                <a href="accueil.html#contact">Contact </a>
             </div>
-            <a href="accueil.html#skills">Mes compétences</a>
-            <a href="#">Projets</a>
-            <a href="accueil.html#contact">Contact </a>
+        </div>
+    </nav>
+
+    <div id="header">
+        <div class="head-container">
+            <div class="head-text">
+                <h1> Ma formation </h1>
+            </div>
         </div>
     </div>
-</nav>
 
-</body>
+    <!-- qualification -->
+    <section class="qualification section">
+        <h2 class="section_title"><div class="horizontal"></div>Mon parcours <div class="horizontal"></div></h2>
+        <span class="section_subtitle"></span>
+
+        <div class="qualification_container container">
+            <div class="qualification_tabs">
+                <div class="qualification_button button--flex  qualification_active" data-target="#education">
+                    <i class="uil uil-graduation-cap qualification_icon"></i>
+                    Éducation
+                </div>
+
+                <div class="qualification_button button--flex" data-target="#work">
+                    <i class="uil uil-briefcase-alt qualification_icon"></i>
+                    Expériences professionnelles
+                </div>
+            </div>
+
+            <div class="qualification_sections">
+                <!-- Quali content 1 -->
+                <div class="qualification_content qualification_active" data-content id="education">
+                    <!-- Quali 1 -->
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title"> <strong>B.U.T. Réseaux et Télécommunications</strong></h3>
+                            <span class="qualification_subtitle">I.U.T. de Sophia-Antipolis - FRANCE</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022 - Aujourd'hui
+                            </div>
+                            <div class="qualification_desc">
+                                Préparation d'un Bachelor Universitaire de Technologie  à l'I.U.T Côte d'Azur.
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+
+                    <!-- Quali 2 -->
+                    <div class="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_title"><strong>I.S.E.N. Yncréa Méditerranée - CPGE</strong></h3>
+                            <span class="qualification_subtitle">Toulon - FRANCE</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2020 - 2022
+                            </div>
+                            <div class="qualification_desc">
+                                Première année en CPGE MPSI, seconde année en filière PSI. Ces deux années m'ont permis l'acquisition de solides connaissances en mathématiques,
+                                physique et sciences de l'ingénieur.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quali 3 -->
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title"><strong>Lycée Amiral de Grasse</strong></h3>
+                            <span class="qualification_subtitle">Grasse - FRANCE</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2017 - 2020
+                            </div>
+                            <div class="qualification_desc">
+                                Obtention du baccalauréat scientifique mention Très bien spécialité mathématiques et option arts plastiques.
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quali content 2 -->
+                <div class="qualification_content" data-content id="work">
+                    <!-- Quali 1 -->
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title"><strong>Technicienne supérieure en développement et cybersécurité</strong></h3>
+                            <span class="qualification_subtitle">INEO DEFENSE - FRANCE</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                octobre 2023
+                            </div>
+                            <div class="qualification_desc">
+                                - À partir d'octobre 2023.
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+
+                    <!-- Quali 2 -->
+                    <div class="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_title"><strong> Employée - Job étudiant</strong></h3>
+                            <span class="qualification_subtitle">SPAR - Saint-Vallier-de-Thiey - FRANCE</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022 - 2023
+                            </div>
+                            <div class="qualification_desc">
+                                - Gestion de la caisse, du pain, réception des colis.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quali 3 -->
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title"><strong>Employée -job d'été Carrefour Provencia</strong></h3>
+                            <span class="qualification_subtitle">Thonon-les-bains - FRANCE</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                juin 2022 - juillet 2022
+                            </div>
+                            <div class="qualification_desc">
+                                - Mise en rayon des produits frais et surgelés.
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+        <!-- icons js-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <!-- typed js -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- mixitup -->
+        <script src="mixitup.min.js"></script>
+
+        <!-- ma formation js-->
+        <script src="ma_formation.js"></script>
+    </body>
 </html>
+
+<!-- JAVASCRIPT -->
+<script src="accueil.js"></script>
+<script src="script.js"></script>
+
