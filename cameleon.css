@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Arya&family=Rubik+Marker+Hatch&display=swap');
+
+#header {
+    background: green;
+    width: 103%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    text-align: center;
+}
+
+.head-text h1 {
+    font-size: 60px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: #fff;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+.desc-title {
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.desc-detail {
+    margin-top: 20px;
+    margin-left: 20%;
+    background: #46934e2e;
+}
+
+li {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+ul {
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+
+button {
+    margin-left: 20%;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+    .head-text h1 {
+        font-size: 60px;
+        margin-top: 140px;
+        text-align: center;
+        font-family: 'Rubik Marker Hatch', cursive;
+        color: #fff;
+      }
+
+    .desc-title {
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+
+    .desc-detail {
+        margin-top: 20px;
+        margin-left: 45px;
+      }
+
+    li {
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+}
+
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgba(0, 0, 0, 0.219);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #fff;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    text-decoration: none;
+  }
+
+.slide_down:hover {
+    box-shadow: inset 0 0 0 50px #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
