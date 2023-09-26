@@ -230,12 +230,15 @@ nav {
     }
 
     .home .home-content h1 {
-        font-size: 3rem;
+        font-size: 3rem;   
     }
 
     .home .home-content p {
         font-size: 1rem;
+        font-family: 'Alata', sans-serif;
+        margin-top: -13px;
     }
+    
 
 
     .home .btn {
