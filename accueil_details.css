@@ -83,7 +83,6 @@ span {
     color: #fff;
 }
 
-
 .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -246,6 +245,14 @@ footer {
     margin-top: 40px;
 }
 
+.skills_data{
+    width:60vh;
+}
+
+.skills_header {
+    width:70vh;
+}
+
 .skills_header {
     display: flex;
     align-items: center;
@@ -366,6 +373,8 @@ footer {
 
 .skills_section {
     background: #b991e1;
+    padding-top: 3rem;
+    padding-bottom:-21rem;
 }
 
 .skills_close .skills_list {
@@ -506,3 +515,18 @@ footer {
     color: var(--second-bg-color);
 
 }
+
+.section_title {
+    margin-top: 70px;
+}
+/* Skills arrows */
+#arrow {
+    display: block;
+  }
+  
+  /* Requête pour cacher l'élément lorsque la fenêtre est réduite à 600 pixels ou moins */
+  @media (max-width: 600px) {
+    #arrow {
+      display: none;
+    }
+  }

@@ -305,6 +305,19 @@ nav {
     .fillter-buttons {
         margin: 2.5rem 0;
     }
+
+    .skills_bar {
+        width: 39vh;
+    }
+
+    .skills_header {
+        width: 47vh;
+    }
+
+    .skills_number {
+        width: 25vh;
+    }
+
 }
 
 @media (max-width:500px){
@@ -314,6 +327,7 @@ nav {
     .nav-icon span {
         font-size: 35px;
     }
+
 }
 
 img{

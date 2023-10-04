@@ -44,7 +44,7 @@
     background:   #09519ea1  ;
     padding: 0 20 px;
     margin: 0 50px;
-    width: 600px;
+    width: 49vh;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@
     }
 
     .card {
-        width: 100%;
+        width: 114%;
         max-width: 300px;
         margin: 10px 0;
         margin-top: 10px;
