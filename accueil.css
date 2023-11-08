@@ -20,7 +20,7 @@
 
 nav {
     position: sticky;
-    width: 100%;
+    width: inherit;
     display: flex;
     align-items: center;
     padding: 15px 25px;
@@ -124,6 +124,7 @@ nav {
     nav {
         padding: 15px 20px;
         position: fixed;
+        width: 100%;
     }
 
     .nav-icon {
@@ -326,6 +327,10 @@ nav {
     }
     .nav-icon span {
         font-size: 35px;
+    }
+
+    .skills_header{
+        width: inherit;
     }
 
 }

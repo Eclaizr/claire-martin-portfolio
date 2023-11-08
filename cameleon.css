@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Arya&family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-#header {
+#header-chameleon {
     background: url('images/petit_cameleon.png');
     background: contain;
-    width: 103%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+    text-align: center;
+}
+
+#header-chat {
+    background: url('images/brown_pastel_abstract_wavey_background_with_leaves.jpg');
+    background: contain;
     height: 40vh;
     background-size: cover;
     background-position: center;
@@ -18,25 +29,39 @@
     text-align: center;
     font-family: 'Rubik Marker Hatch', cursive;
     color: #fff;
+    font-family: 'Alata', sans-serif;
+}
+
+.head-text-chat h1 {
+    font-size: 60px;
+    margin-top: -179px;
+    text-align: center;
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: #fff;
+    font-family: 'Alata', sans-serif;
 }
 
 h3 {
     text-align: center;
     margin-top: 40px;
+    font-family: 'Alata', sans-serif;
   }
 
 .desc-title {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
+    font-family: 'Alata', sans-serif;
 }
 
 .desc-detail {
     margin-top: 35px;
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     background: #46934e2e;
+    font-family: 'Alata', sans-serif;
 }
 
-li {
+.li-chameleon {
     margin-top: 20px;
     margin-left: 40px;
 }
@@ -50,30 +75,39 @@ button {
     margin-left: 20%;
     margin-top: 20px;
     text-decoration: none;
+    font-family: 'Alata', sans-serif;
 }
 
 @media (max-width: 1100px) {
     .head-text h1 {
         font-size: 60px;
         margin-top: 140px;
-        text-align: center;
-        font-family: 'Rubik Marker Hatch', cursive;
+        font-family: 'Alata', sans-serif;
         color: #fff;
       }
 
     .desc-title {
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .desc-detail {
         margin-top: 35px;
-        margin-left: 20px;
-      }
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
 
     li {
         margin-top: 20px;
         margin-left: 20px;
+    }
+
+    .container-chameleon {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 }
 
@@ -84,7 +118,7 @@ button {
     border-radius: 0px;
     padding: 18px 36px;
     display: inline-block;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Alata', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -130,6 +164,28 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+.container-chameleon {
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#description {
+    flex:2;
+    width: 100%;
+}
+
+.photo-cameleon {
+    width: 71%;
+    margin-top: 8%;
+    margin-left: 15%;
+  }
+
+  #diagramme-cameleon {
+    width: 90%;
+  }
 
 
 

@@ -6,12 +6,15 @@ body {
 
 #header {
     background-image: url('images/work.jpeg');
-    width: 103%;
     height: 75vh;
     background-size: cover;
     background-position: center;
     padding: 1px;
     text-align: center;
+}
+
+*{
+    font-family: 'Alata';
 }
 
 .head-text h1 {
@@ -20,6 +23,11 @@ body {
     text-align: center;
     font-family: 'Rubik Marker Hatch', cursive;
     color: #fff;
+}
+
+h2{
+    font-family: 'Alata';
+    font-size: 1.6rem;
 }
 
 /* QUALIFICATIONS */
@@ -31,12 +39,12 @@ body {
 
 .qualification {
     background: #582480;
-    width: 85%;
 }
 
 .qualification_container {
     background: rgba(255, 255, 255, 0.496);
-    height: 70vh;
+    height: fit-content;
+    padding-bottom: 50px;
     margin-top: 65px;
   }
 
@@ -47,6 +55,8 @@ body {
     margin-top: 60px;
     border-style: outset;
     color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .qualification_button:hover {
@@ -216,3 +226,38 @@ body {
         margin-left: -23px;
     }
 }
+
+#img_iut{
+    width: 20%;
+}
+
+#img_isen{
+    width: 30%;
+}
+
+#img_amir{
+    width: 20%;
+}
+
+#img_ineo{
+    width: 35%;
+}
+
+#img_spar{
+    width: 11%;
+}
+
+#img_carrefour{
+    width: 20%;
+}
+
+.div_img_left{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.div_img_right{
+    display: flex;
+    align-items: center;
+}
+

@@ -240,24 +240,29 @@ footer {
 }
 
 /* SKILLS !!! */
+
 .skills_container {
     row-gap: 0;
-    margin-top: 40px;
+    margin-top: -90px;
 }
 
 .skills_data{
-    width:60vh;
+    width:60%;
 }
 
-.skills_header {
-    width:70vh;
+@media(min-width:500px){
+    .skills_header {
+        width:70vh;
+    }
 }
+
 
 .skills_header {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     cursor: pointer;
+    width: inherit;
 }
 
 .skills_icon,
@@ -267,7 +272,7 @@ footer {
 }
 
 .skills_icon {
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 .skills_title {
@@ -281,12 +286,16 @@ footer {
 
 .section_subtitle {
     font-size: var(--small-font-size);
+    text-align: center;
     color: #582480;
-}
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+  }
 
 .skills_arrow {
     margin-left: auto;
-    transition: 4s;
+    transition: 0.25s;
 }
 
 .skills_list {
@@ -319,6 +328,22 @@ footer {
 .skills_percentage {
     display: block;
     background-color: #ffffff;
+}
+
+.div_skill_list{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1000px) {
+    .skills-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .skills-container {
+        flex-direction: row;
+    }
 }
 
 /* skills bar */
@@ -375,6 +400,14 @@ footer {
     background: #b991e1;
     padding-top: 3rem;
     padding-bottom:-21rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .skills_close .skills_list {
@@ -517,7 +550,8 @@ footer {
 }
 
 .section_title {
-    margin-top: 70px;
+    margin-top: 23px;
+    text-align: center;
 }
 /* Skills arrows */
 #arrow {
@@ -527,6 +561,54 @@ footer {
   /* Requête pour cacher l'élément lorsque la fenêtre est réduite à 600 pixels ou moins */
   @media (max-width: 600px) {
     #arrow {
-      display: none;
+        margin-left: 10%;
     }
+    .skills_container {
+        row-gap: 0;
+        margin-top: -65px;
+      }
+
+    .section_title {
+        margin-top: 69px;
+        text-align: center;
+    }
+    
+  }
+
+/* Drapeaux !!!!! */
+
+.skills-flags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+
+.flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-flag {
+    text-align: center;
+}
+
+.img-flag{
+    width: 20%;
+}
+
+@media(max-width:1000px) {
+    .skills-flags{
+        flex-direction: column;
+    }
+    .flag{
+        margin-bottom: 20px;
+    }
+}
+
+.flag-border {
+    border: solid #582480 2px;
+    border-radius: 30px;
   }
