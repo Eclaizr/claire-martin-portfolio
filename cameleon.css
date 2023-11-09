@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Arya&family=Rubik+Marker+Hatch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
+
+
+/* Les HEADERS */
+
 #header-chameleon {
     background: url('images/petit_cameleon.png');
+    background: contain;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+    text-align: center;
+}
+
+#site-web-chat {
+    background: url('images/brown_pastel_abstract_wavey_background_with_leaves.jpg');
     background: contain;
     height: 40vh;
     background-size: cover;
@@ -102,13 +117,6 @@ button {
         margin-top: 20px;
         margin-left: 20px;
     }
-
-    .container-chameleon {
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
 }
 
 
@@ -154,6 +162,14 @@ button {
         margin-left: 0px;
     }
 
+    .container-chameleon {
+        flex-direction: column;
+    }
+
+    #description {
+        margin-left: 1px;
+    }
+
 }
 
 .slide_down:hover {
@@ -168,7 +184,6 @@ a {
 .container-chameleon {
     display: flex;
     flex:1;
-    flex-direction: row;
     justify-content: space-evenly;
 }
 
@@ -178,14 +193,29 @@ a {
 }
 
 .photo-cameleon {
-    width: 71%;
+    width: 85%;
     margin-top: 8%;
     margin-left: 15%;
-  }
+}
+
+a {
+    text-decoration: none;
+}
 
   #diagramme-cameleon {
     width: 90%;
-  }
+}
+
+/* PARTIE PREMIER SITE WEB CHAT */
+
+#site-chat {
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: #d4b8a070;
+    font-family: 'Alata', sans-serif;
+}
+
 
 
 
