@@ -1,233 +1,233 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arya&family=Rubik+Marker+Hatch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
+/* General Styling */
+body {
+  font-family: 'Alata', sans-serif;
+  margin: 0;
+}
+
+/* Header Styles */
 #header-chameleon {
-    background: url('images/petit_cameleon.png');
-    background: contain;
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 1px;
-    text-align: center;
+  background: url('images/petit_cameleon.png');
+  background: contain;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1px;
+  text-align: center;
 }
 
 #header-chat {
-    background: url('images/brown_pastel_abstract_wavey_background_with_leaves.jpg');
-    background: contain;
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 1px;
-    text-align: center;
+  background: url('images/brown_pastel_abstract_wavey_background_with_leaves.jpg');
+  background: contain;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1px;
+  text-align: center;
 }
 
 #header-thales {
-    background: url('images/pexels-felix-mittermeier-957061.jpg');
-    background: contain;
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 1px;
-    text-align: center;
+  background: url('images/pexels-felix-mittermeier-957061.jpg');
+  background: contain;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1px;
+  text-align: center;
 }
-
-
 
 .head-text h1 {
-    font-size: 60px;
-    margin-top: 100px;
-    text-align: center;
-    font-family: 'Rubik Marker Hatch', cursive;
-    color: #fff;
-    font-family: 'Alata', sans-serif;
+  font-size: 60px;
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Rubik Marker Hatch', cursive;
 }
 
-.head-text-chat h1 {
-    font-size: 60px;
-    margin-top: -179px;
-    text-align: center;
-    font-family: 'Rubik Marker Hatch', cursive;
-    color: #fff;
-    font-family: 'Alata', sans-serif;
+/* Project Description Styles */
+.desc-title {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-family: 'Alata', sans-serif;
 }
-
-h3 {
-    text-align: center;
-    margin-top: 40px;
-    font-family: 'Alata', sans-serif;
-  }
 
 .desc-title {
-    margin-top: 20px;
-    margin-left: 40px;
-    font-family: 'Alata', sans-serif;
-}
-
-.desc-detail {
-    margin-top: 45px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background: #46934e2e;
-    font-family: 'Alata', sans-serif;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-family: 'Alata', sans-serif;
 }
 
 .desc-detail-chat {
-    margin-top: 35px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background: #d4b8a06e;
-    font-family: 'Alata', sans-serif;
+  grid-template-columns: 2fr 1fr; /* Adjust the values as needed */
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Alata', sans-serif;
+  background-color: #d4b8a069;
+  overflow: hidden; /* Add this line to remove overflow */
+}
+
+.desc-detail {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Alata', sans-serif;
+  background-color: #d4b8a069;
+  overflow: hidden; /* Add this line to remove overflow */
 }
 
 
-.li-chameleon {
-    margin-top: 20px;
-    margin-left: 40px;
+
+
+.desc-detail {
+  background-color: #8dad5838;
 }
 
+.desc-detail-chat {
+  background-color: #d4b8a069;
+}
+
+/* Adjust the width of the first column as needed */
+.desc-detail .desc-title {
+  grid-column: 1 / 2;
+  white-space: nowrap; /* Optional: Prevent line breaks in the first cell */
+}
+
+/* Adjust the width of the second column as needed */
+.desc-detail .desc-content {
+  grid-column: 2 / 3;
+}
+
+.li-chameleon,
 .li-chat {
-    margin-top: 45px;
-    margin-left: 40px;
-    margin-right: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Alata', sans-serif;
 }
 
 ul {
-    margin-left: 20%;
-    margin-top: 20px;
-  }
-
-button {
-    margin-left: 20%;
-    margin-top: 20px;
-    text-decoration: none;
-    font-family: 'Alata', sans-serif;
+  margin-left: 20%;
+  margin-top: 20px;
 }
 
+/* Responsive Styles */
 @media (max-width: 1100px) {
-    .head-text h1 {
-        font-size: 60px;
-        margin-top: 140px;
-        font-family: 'Alata', sans-serif;
-        color: #fff;
-      }
-
-    .desc-title {
-        margin-top: 20px;
-        margin-left: 40px;
-    }
-
-    .desc-detail {
-        margin-top: 35px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    
-
-    li {
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-
-    .container-chameleon {
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-}
-
-
-.button_slide {
-    color: #FFF;
-    border: 2px solid rgba(0, 0, 0, 0.219);
-    border-radius: 0px;
-    padding: 18px 36px;
-    display: inline-block;
-    font-family: 'Alata', sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #fff;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-    text-decoration: none;
-    margin-bottom: 6vh;
+  .head-text h1 {
+    font-size: 60px;
+    margin-top: 140px;
   }
+
+  .desc-title,
+  .desc-detail,
+  .li-chameleon,
+  .li-chat {
+    margin-left: 20px;
+  }
+  
+}
 
 @media (max-width: 500px) {
-    .head-text h1 {
-        font-size: 60px;
-        margin-top: 100px;
-        text-align: center;
-        font-family: 'Rubik Marker Hatch', cursive;
-        color: #fff;
-      }
+  .head-text h1 {
+    font-size: 60px;
+    margin-top: 100px;
+  }
 
-    .desc-title {
-        margin-top: 20px;
-        margin-left: 20px;
-    }
+  .desc-title,
+  .desc-detail,
+  .li-chameleon,
+  .li-chat {
+    margin-left: 10px;
+  }
 
-    .desc-detail {
-        margin-top: 20px;
-        margin-left: 20px;
-      }
+  .container-chameleon, .container-site-chat {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
 
-    li {
-        margin-top: 20px;
-        margin-left: 0px;
-    }
+  .photo-cameleon {
+    width: 71%;
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-left: 56px;
+  }
+    
+  h3 {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+}
 
+/* Button Styles */
+.button_slide {
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #fff;
+  transition: ease-out 0.4s;
+  text-decoration: none;
+  margin-bottom: 6vh;
+  font-family: 'Alata', sans-serif;
 }
 
 .slide_down:hover {
-    box-shadow: inset 0 0 0 50px #fff;
+  box-shadow: inset 0 0 0 50px #fff;
 }
 
+/* Link Styles */
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
-.container-chameleon {
-    display: flex;
-    flex:1;
-    justify-content: space-evenly;
-}
-
+/* Container Styles */
+.container-chameleon,
 .container-site-chat {
-    display: flex;
-}
-/* DESCRIPTIONS */
-
-#description {
-    flex:2;
-    width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
+/* Description and Photo Styles */
+#description,
 #description-chat {
-    flex:2;
-    width: 100%;
+  flex: 2;
 }
-
-/* PHOTOS */
 
 .photo-cameleon {
-    width: 71%;
-    margin-top: 14%;
-    margin-left: 15%;
-  }
+  width: 71%;
+  margin-top: 45px;
+}
 
 .photo-chat {
-    width: 71%;
-    margin-top: 5%;
-    margin-left: 15%;
+  width: 55%;
+  margin-left: 15%;
+  margin-top: 88px;
+  border-radius: 10px;
 }
 
 #diagramme-cameleon {
-    width: 90%;
+  width: 90%;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 30px;
 }

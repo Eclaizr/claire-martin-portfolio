@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Arya&family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+#header-chameleon {
+    background: url('images/petit_cameleon.png');
+    background: contain;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+    text-align: center;
+}
+
+#header-chat {
+    background: url('images/brown_pastel_abstract_wavey_background_with_leaves.jpg');
+    background: contain;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+    text-align: center;
+}
+
+#header-thales {
+    background: url('images/pexels-felix-mittermeier-957061.jpg');
+    background: contain;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+    text-align: center;
+}
+
+
+
+.head-text h1 {
+    font-size: 60px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: #fff;
+    font-family: 'Alata', sans-serif;
+}
+
+.head-text-chat h1 {
+    font-size: 60px;
+    margin-top: -179px;
+    text-align: center;
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: #fff;
+    font-family: 'Alata', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Alata', sans-serif;
+  }
+
+.desc-title {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Alata', sans-serif;
+}
+
+.desc-detail {
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: #46934e2e;
+    font-family: 'Alata', sans-serif;
+}
+
+.desc-detail-chat {
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: #d4b8a06e;
+    font-family: 'Alata', sans-serif;
+}
+
+
+.li-chameleon {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.li-chat {
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+ul {
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+
+button {
+    margin-left: 20%;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+}
+
+@media (max-width: 1100px) {
+    .head-text h1 {
+        font-size: 60px;
+        margin-top: 140px;
+        font-family: 'Alata', sans-serif;
+        color: #fff;
+      }
+
+    .desc-title {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .desc-detail {
+        margin-top: 35px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+
+    li {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .container-chameleon {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #description {
+        flex-grow: 2; /* Use flex-grow to allocate more space */
+        /*width: 100%;*/
+        margin-top: 20px;
+        margin-left: 20px; /* Adjust as needed */
+        margin-right: 20px; /* Adjust as needed */
+    }
+
+    .container-site-chat {
+        display: flex;
+        flex-direction: column;
+      }
+}
+
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgba(0, 0, 0, 0.219);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: 'Alata', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #fff;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    text-decoration: none;
+    margin-bottom: 6vh;
+  }
+
+@media (max-width: 500px) {
+    .head-text h1 {
+        font-size: 60px;
+        margin-top: 100px;
+        text-align: center;
+        font-family: 'Rubik Marker Hatch', cursive;
+        color: #fff;
+      }
+
+    .desc-title {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .desc-detail {
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+    li {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+}
+
+.slide_down:hover {
+    box-shadow: inset 0 0 0 50px #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container-chameleon {
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
+}
+
+.container-site-chat {
+    display: flex;
+}
+/* DESCRIPTIONS */
+
+
+#description-chat {
+    flex:2;
+}
+
+/* PHOTOS */
+
+.photo-cameleon {
+    width: 71%;
+    margin-top: 14%;
+    margin-left: 15%;
+  }
+
+.photo-chat {
+    width: 71%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+#diagramme-cameleon {
+    width: 90%;
+}
