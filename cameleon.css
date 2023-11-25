@@ -188,6 +188,11 @@ ul {
   .cameleon-image-container{
     margin-top: 10px;
   }
+
+  .contain-thales {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Button Styles */
@@ -275,4 +280,14 @@ h3 {
 
 #description-thales {
   background-color: #0001169e ;
+}
+
+
+
+.img-thales-container {
+  display: flex;
+}
+
+.contain-thales {
+  display: flex;
 }
