@@ -150,6 +150,10 @@ ul {
   .li-thales {
     margin-left: 20px;
   }
+
+  .button_slide_chat {
+    margin-left: 9vh;
+  }
   
 }
 
@@ -193,6 +197,7 @@ ul {
     display: flex;
     flex-direction: column;
   }
+
 }
 
 /* Button Styles */
@@ -210,6 +215,23 @@ ul {
   text-decoration: none;
   margin-bottom: 6vh;
   font-family: 'Alata', sans-serif;
+}
+
+.button_slide_chat {
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #fff;
+  transition: ease-out 0.4s;
+  text-decoration: none;
+  margin-bottom: 6vh;
+  font-family: 'Alata', sans-serif;
+  margin-left: 17vh;
 }
 
 .slide_down:hover {

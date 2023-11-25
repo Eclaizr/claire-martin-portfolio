@@ -429,4 +429,9 @@ footer {
 
 #portfolio {
     margin-bottom: 70px;
+    background-color: #31255f;
+}
+
+#portfolio h2 {
+    color : white;
 }
