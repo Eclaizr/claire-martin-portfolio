@@ -181,7 +181,7 @@ span {
 /* Section about */
 .about-img img {
     width: 25vw;
-    border-radius: 20%;
+    border-radius: 60px;
     margin-top: 95px;
 }
 
