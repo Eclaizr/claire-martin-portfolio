@@ -14,8 +14,7 @@ section {
     margin-top: -90px;
     min-height: 107vh;
     padding: 5rem 9% 2rem;
-    box-shadow: 40px 10px 40px rgb(105, 8, 104)
-    
+    box-shadow: 40px 10px 40px rgb(127, 219, 255);
 }
 
 .home-content {
@@ -29,6 +28,7 @@ section .about-content {
 .home {
     display: flex;
     justify-content: center;
+    background-color: #004691;
 }
 
 .home-img img {
@@ -62,9 +62,8 @@ section .about-content {
 }
 
 span {
-    color: #d093ff;
-
-}
+    color: #7FDBFF;
+  }
 
 .home-content h1 {
     font-size: 5.6rem;
@@ -93,11 +92,11 @@ span {
     border: .2rem #d093ff;
     border-radius: 50%;
     font-size: 2rem;
-    color: #d093ff;
+    color: #7fdbff;
     margin: 2rem 1.5rem 3rem 0;
     transition: .5s ease;
     margin: 8px;
-    margin-left: 50px;
+    margin-left: 2px;
 }
 
 .social-media a:hover{
@@ -109,15 +108,15 @@ span {
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: #d093ff;
+    background: #fff;
     border-radius: 1.2rem;
-    box-shadow: 0px 0 0 #d093ff;
+    box-shadow: 1px 1px 3px #49839a;
     margin: 10px;
     font-size: 1.2rem;
-    color: #fff;
+    color: #468096;
     letter-spacing: .1rem;
     font-weight: 600;
-    transition: .5s ease;
+    transition: .5s cubic-bezier(.86,0,.07,1);
     text-decoration: none;
 }
 
@@ -130,7 +129,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background: #f6edff;
+    background: #7FDBFF;
     padding-top: 0;
     padding-bottom: 80px;
     border-color: #000000;
@@ -397,9 +396,9 @@ footer {
 }
 
 .skills_section {
-    background: #b991e1;
+    background: #7fdbff;
     padding-top: 3rem;
-    padding-bottom:-21rem;
+    padding-bottom: -21rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -442,7 +441,7 @@ footer {
 }
 
 .fillter-buttons .btn {
-    background: #ddbdfe;
+    background: #7FDBFF;
     outline: none;
     border: none;
     cursor: pointer;
@@ -450,7 +449,7 @@ footer {
     font-weight: 600;
     letter-spacing: .4px;
     margin-left: 1.3rem;
-    color: #582480;
+    color: #000;
 }
 
 .portfolio .main-text {
@@ -471,13 +470,13 @@ footer {
     position: relative;
     border-radius: 15px;
     overflow: hidden;
-    background: #cd8bff;
+    background: #450ddd;
     display: flex;
     grid-template-rows: 1fr auto;
     align-items: center;
-    border: 2px solid #ddbdfe;
+    border: 2px solid #7fdbff;
     box-shadow: #755396;
-}
+  }
 
 .port-image {
     display: flex;
@@ -501,8 +500,8 @@ footer {
     width: 100%;
     height: 100%;
     opacity: 0;
-    /* background: linear-gradient(rgba(0,0,0,.2),#582480);  Couleur du fond de la case lorsque survolée par la souris */
-    background: #0e0909cc;
+    background: linear-gradient(rgba(0,0,0,.2),#582480);
+    background: #7fdbffe0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -510,7 +509,7 @@ footer {
     text-align: center;
     transition: 0.5s;
     padding: 0.2rem;
-}
+  }
 
 .port-box:hover .port-content {
     opacity: 1;
@@ -613,3 +612,7 @@ footer {
     border: solid #582480 2px;
     border-radius: 30px;
   }
+
+.about-content span {
+    color : #fff;
+}
