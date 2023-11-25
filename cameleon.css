@@ -32,7 +32,7 @@ body {
 }
 
 #header-thales {
-  background: url('images/pexels-felix-mittermeier-957061.jpg');
+  background: url('images/thales-sniffer.png');
   background: contain;
   height: 40vh;
   background-size: cover;
@@ -44,7 +44,7 @@ body {
 
 .head-text h1 {
   font-size: 60px;
-  margin-top: 100px;
+  margin-top: 125px;
   text-align: center;
   color: #fff;
   font-family: 'Rubik Marker Hatch', cursive;
@@ -65,6 +65,8 @@ body {
   font-family: 'Alata', sans-serif;
 }
 
+/* DESC DETAILS */
+
 .desc-detail-chat {
   grid-template-columns: 2fr 1fr; /* Adjust the values as needed */
   margin-top: 20px;
@@ -74,6 +76,19 @@ body {
   border-radius: 5px;
   font-family: 'Alata', sans-serif;
   background-color: #d4b8a069;
+  overflow: hidden; /* Add this line to remove overflow */
+}
+
+.desc-detail-thales {
+  grid-template-columns: 2fr 1fr; /* Adjust the values as needed */
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Alata', sans-serif;
+  background-color: #20107aba;
+  color: white;
   overflow: hidden; /* Add this line to remove overflow */
 }
 
@@ -87,9 +102,6 @@ body {
   background-color: #d4b8a069;
   overflow: hidden; /* Add this line to remove overflow */
 }
-
-
-
 
 .desc-detail {
   background-color: #8dad5838;
@@ -111,7 +123,8 @@ body {
 }
 
 .li-chameleon,
-.li-chat {
+.li-chat,
+.li-thales {
   margin-top: 20px;
   margin-left: 40px;
   margin-right: 40px;
@@ -133,7 +146,8 @@ ul {
   .desc-title,
   .desc-detail,
   .li-chameleon,
-  .li-chat {
+  .li-chat,
+  .li-thales {
     margin-left: 20px;
   }
   
@@ -148,11 +162,12 @@ ul {
   .desc-title,
   .desc-detail,
   .li-chameleon,
-  .li-chat {
+  .li-chat,
+  .li-thales {
     margin-left: 10px;
   }
 
-  .container-chameleon, .container-site-chat {
+  .container-chameleon, .container-site-chat, .container-thales {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -204,7 +219,8 @@ a {
 
 /* Container Styles */
 .container-chameleon,
-.container-site-chat {
+.container-site-chat,
+.container-thales {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -213,7 +229,8 @@ a {
 
 /* Description and Photo Styles */
 #description,
-#description-chat {
+#description-chat,
+#description-thales {
   flex: 2;
 }
 
@@ -225,6 +242,13 @@ a {
 .photo-chat {
   width: 55%;
   margin-left: 15%;
+  margin-top: 88px;
+  border-radius: 10px;
+}
+
+.logo-thales{
+  width: 500px;
+  margin-left: 0%;
   margin-top: 88px;
   border-radius: 10px;
 }
@@ -247,4 +271,8 @@ h3 {
   align-items: center;
   flex: 1.4;
   justify-content: space-evenly;
+}
+
+#description-thales {
+  background-color: #0001169e ;
 }
