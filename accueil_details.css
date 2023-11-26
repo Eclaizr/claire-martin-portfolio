@@ -271,10 +271,10 @@ footer {
     width: inherit;
 }
 
-.skills_icon,
+.skills_icon, 
 .skills_arrow {
     font-size: 2rem;
-    color: #582480;
+    color: #40352cb8;
 }
 
 .skills_icon {
@@ -283,21 +283,24 @@ footer {
 
 .skills_title {
     font-size: 1.2rem;
+    font-family: 'Alata', sans-serif;
 }
 
 .skills_subtitle {
     font-size: var(--small-font-size);
-    color: #582480;
+    color: #000;
+    font-family: 'Alata', sans-serif;
 }
 
 .section_subtitle {
-    font-size: var(--small-font-size);
+    font-size: 1.4rem;
     text-align: center;
-    color: #582480;
+    color: #0009;
     margin-bottom: 20px;
     width: 100%;
     display: block;
-  }
+    font-family: 'Alata', sans-serif;
+}
 
 .skills_arrow {
     margin-left: auto;
@@ -319,6 +322,7 @@ footer {
 .skills_name {
     font-size: .9rem;
     font-weight: medium;
+    font-family: 'Alata', sans-serif;
 }
 
 .skills_bar,
@@ -328,12 +332,12 @@ footer {
 }
 
 .skills_bar {
-    background-color: #8c72a0;
+    background-color: #fff;
 }
 
 .skills_percentage {
     display: block;
-    background-color: #ffffff;
+    background-color: #4f0c0c;
 }
 
 .div_skill_list{
@@ -403,7 +407,7 @@ footer {
 }
 
 .skills_section {
-    background: #7fdbff;
+    background: #588c82;
     padding-top: 3rem;
     padding-bottom: -21rem;
     display: flex;
@@ -445,6 +449,7 @@ footer {
     margin: 2rem;
     text-align: center;
     padding: 20px;
+    font-family: 'Alata', sans-serif;
 }
 
 .fillter-buttons .btn {
@@ -557,9 +562,11 @@ footer {
 }
 
 .section_title {
-    margin-top: 45px;
+    margin-top: 2px;
     text-align: center;
-  }
+    font-family: 'Alata', sans-serif;
+}
+
 /* Skills arrows */
 #arrow {
     display: block;
@@ -577,6 +584,11 @@ footer {
 
     .section_title {
         margin-top: 69px;
+        text-align: center;
+    }
+
+    .hard {
+        margin-top: 20px;
         text-align: center;
     }
     
@@ -622,4 +634,17 @@ footer {
 
   .about-content span {
     color: #FAE0C5;
+}
+
+.prtf-img {
+    width: 130px;
+    margin-right: -20px;
+}
+
+#hardskills {
+    background-color: #FAE0C5;
+    border-radius: 22px;
+    margin-top: -8px;
+    margin-bottom: 35px;
+    padding: 28px;
 }
