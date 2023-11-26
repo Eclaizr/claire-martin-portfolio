@@ -82,7 +82,7 @@ span {
   }
 
 .home-content p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #fff;
 }
 
@@ -448,7 +448,7 @@ footer {
 }
 
 .fillter-buttons .btn {
-    background: #7FDBFF;
+    background: #649F94;
     outline: none;
     border: none;
     cursor: pointer;
@@ -470,18 +470,18 @@ footer {
 .portfolio-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(270px , 1fr));
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .port-box {
     position: relative;
     border-radius: 15px;
     overflow: hidden;
-    background: #450ddd;
+    background: #fff;
     display: flex;
     grid-template-rows: 1fr auto;
     align-items: center;
-    border: 2px solid #7fdbff;
+    border: 2px solid #3F6E65;
     box-shadow: #755396;
   }
 
@@ -508,7 +508,7 @@ footer {
     height: 100%;
     opacity: 0;
     background: linear-gradient(rgba(0,0,0,.2),#582480);
-    background: #7fdbffe0;
+    background: #649F94D6;
     display: flex;
     align-items: center;
     justify-content: center;

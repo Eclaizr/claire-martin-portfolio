@@ -249,7 +249,7 @@ nav {
     .home .home-img img {
         width: 60%;
         margin-top: -40px;
-        margin-left: 60px;
+        margin-left: -23px;
     }
 
     .social-media a {
@@ -428,7 +428,7 @@ footer {
 }
 
 #portfolio {
-    margin-bottom: 70px;
+    margin-bottom: 90px;
     background-color: #fff;
 }
 
