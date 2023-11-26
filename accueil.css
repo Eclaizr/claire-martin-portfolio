@@ -65,7 +65,7 @@ nav {
 }
 
 .navlinks-container a.active {
-    color: #97e2ff;
+    color: #036652a3;
 }
 
 /* Animation barre de menu */
@@ -79,7 +79,7 @@ nav {
     height: .8px;
     transform: scaleX(0);
     transform-origin: left;
-    background: #004691;
+    background: #ffebba;
     transition: transform 0.3s ease-out;
 }
 
@@ -441,5 +441,5 @@ footer {
 }
 
 h3 span {
-    color: #7FDBFF;
+    color: #FAE0C5;
 }

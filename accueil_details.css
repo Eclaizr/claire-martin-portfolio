@@ -12,14 +12,17 @@ html {
 
 section {
     margin-top: -90px;
-    min-height: 107vh;
+    min-height: 102vh;
     padding: 5rem 9% 2rem;
-    box-shadow: 40px 10px 40px rgb(127, 219, 255);
+    box-shadow: 40px 10px 40px rgb(0, 0, 0);
 }
 
 .home-content {
     margin: 48px;
-}
+    margin-top: 70px;
+    margin-left:-10px;
+    margin-right: 78px;
+  }
 
 section .about-content {
     margin-top: 100px;
@@ -28,13 +31,14 @@ section .about-content {
 .home {
     display: flex;
     justify-content: center;
-    background-color: #004691;
+    background-color: #036652;
 }
 
 .home-img img {
     width: 35vw;
-    margin-top: 50px;
+    margin-top: 100px;
     animation: floatImage 4s ease-in-out infinite;
+    border-radius: 88px;
 }
 
 @keyframes floatImage {
@@ -62,8 +66,8 @@ section .about-content {
 }
 
 span {
-    color: #7FDBFF;
-  }
+    color: #036652a3;
+}
 
 .home-content h1 {
     font-size: 5.6rem;
@@ -92,7 +96,7 @@ span {
     border: .2rem #d093ff;
     border-radius: 50%;
     font-size: 2rem;
-    color: #7fdbff;
+    color: #FAE0C5;
     margin: 2rem 1.5rem 3rem 0;
     transition: .5s ease;
     margin: 8px;
@@ -107,13 +111,13 @@ span {
 
 .btn {
     display: inline-block;
-    padding: 1rem 2.8rem;
+    padding: 1rem 1.8rem;
     background: #fff;
     border-radius: 1.2rem;
-    box-shadow: 1px 1px 3px #49839a;
+    box-shadow: 2px 1px 3px #fae0c5;
     margin: 10px;
     font-size: 1.2rem;
-    color: #468096;
+    color: #036652;
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s cubic-bezier(.86,0,.07,1);
@@ -129,11 +133,11 @@ span {
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background: #7FDBFF;
+    background: #649F94;;
     padding-top: 0;
     padding-bottom: 80px;
     border-color: #000000;
-    margin-top: 2px;
+    margin-top: -2px;
     margin-bottom: 90px;
 }
 
@@ -201,7 +205,10 @@ span {
 
 .about-content p {
     font-size: 1rem;
-    margin: 2rem 0 3rem;
+    margin: 3rem 1px 4rem;
+    background-color: #FAE0C5;
+    padding: 40px;
+    border-radius: 28px;
 }
 
 /* footer */
@@ -613,6 +620,6 @@ footer {
     border-radius: 30px;
   }
 
-.about-content span {
-    color : #fff;
+  .about-content span {
+    color: #FAE0C5;
 }
