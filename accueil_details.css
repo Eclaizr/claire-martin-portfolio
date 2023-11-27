@@ -12,9 +12,30 @@ html {
 
 section {
     margin-top: -90px;
-    min-height: 102vh;
     padding: 5rem 9% 2rem;
     box-shadow: 40px 10px 40px rgb(0, 0, 0);
+}
+
+.home {
+    min-height: 85vh;
+}
+
+.about {
+    min-height: 102vh;
+}
+
+.portfolio{
+    min-height: 102vh;
+}
+
+.skills_section {
+    min-height: 102vh;
+}
+
+.arbres-transition {
+
+    height: 30vh;
+    background-color: white;
 }
 
 .home-content {
@@ -37,7 +58,6 @@ section .about-content {
 .home-img img {
     width: 35vw;
     margin-top: 100px;
-    animation: floatImage 4s ease-in-out infinite;
     border-radius: 88px;
 }
 
@@ -79,10 +99,10 @@ span {
       margin-bottom: -6px;
     margin-top: -4px;
     margin-bottom: 0px;
-  }
+}
 
 .home-content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #fff;
 }
 
@@ -235,9 +255,9 @@ footer {
     display: flex;
     align-items: center;
     padding: 0.8rem;
-    background: #4fbae5;
+    background: #659286;
     border-radius: 0.8rem;
-    color: #755396;
+    color: #d1c9b2;
 }
 
 .footer-iconTop a:hover {
@@ -288,7 +308,7 @@ footer {
 
 .skills_subtitle {
     font-size: var(--small-font-size);
-    color: #000;
+    color: #0009;
     font-family: 'Alata', sans-serif;
 }
 
@@ -435,8 +455,10 @@ footer {
 }
 
 .skills_number {
-    color: #582480;
-    font-size: .9rem;
+    color: #000;
+    font-size: 1.3rem;
+    margin-top: 14px;
+    margin-left: 80px;
 }
 
 .skills_section {
@@ -612,6 +634,7 @@ footer {
 
 .p-flag {
     text-align: center;
+    font-family: 'Alata', sans-serif;
 }
 
 .img-flag{
@@ -625,20 +648,47 @@ footer {
     .flag{
         margin-bottom: 20px;
     }
+
+    .home-content {
+        margin: 48px;
+          margin-top: 48px;
+          margin-right: 48px;
+          margin-left: 48px;
+        margin-top: 70px;
+        margin-left: -22px;
+        margin-right: -10px;
+        justify-content: center;
+        text-align: center;
+      }
 }
 
 .flag-border {
-    border: solid #582480 2px;
+    border: solid #3b645b00 2px;
     border-radius: 30px;
-  }
+    background-color: #42645d3d;
+}
 
-  .about-content span {
+.lang {
+    color: #fae0c5;
+}
+
+.flag {
+    color: #fae0c5;
+}
+
+.about-content span {
     color: #FAE0C5;
 }
 
-.prtf-img {
+.prtf-img-hs {
     width: 130px;
-    margin-right: -20px;
+    margin-right: 10px;
+    margin-top: 131px;
+}
+
+.prtf-img-sk {
+    width: 180px;
+    margin-top: 103px;
 }
 
 #hardskills {
@@ -648,3 +698,11 @@ footer {
     margin-bottom: 35px;
     padding: 28px;
 }
+
+#softskills {
+    background-color: #FAE0C5;
+    border-radius: 22px;
+    margin-top: -8px;
+    margin-bottom: 35px;
+    padding: 28px;
+  }

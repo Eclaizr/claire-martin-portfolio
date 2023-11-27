@@ -248,8 +248,8 @@ nav {
 
     .home .home-img img {
         width: 60%;
-        margin-top: -40px;
-        margin-left: -23px;
+        margin-top: 0px;
+        margin-left: 60px;
     }
 
     .social-media a {
@@ -308,7 +308,7 @@ nav {
     }
 
     .skills_bar {
-        width: 39vh;
+        width: 22vh;
     }
 
     .skills_header {
@@ -317,12 +317,16 @@ nav {
 
     .skills_number {
         width: 25vh;
+        color: #000;
+        font-size: 1.3rem;
+        margin-top: 14px;
+        margin-left: 80px;
     }
 
-    .prtf-img {
+    .prtf-img-hs,
+    .prtf-img-sk {
         display: none;
     }
-
 }
 
 @media (max-width:500px){
@@ -448,4 +452,23 @@ footer {
 
 h3 span {
     color: #FAE0C5;
+}
+
+@media(min-width:1201px){
+    #hardskills {
+        margin-right: 60px;
+    }
+
+    .fleche-scroll {
+        width: 70px;
+        margin-left: 90%;
+        margin-top: 0px;
+        animation: floatImage 4s ease-in-out infinite;
+    }
+}
+
+.fleche-scroll {
+    position: relative;
+    margin-top: 20px;
+    animation: floatImage 2s ease-in-out infinite;
 }

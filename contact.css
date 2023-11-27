@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 * {
     margin: 0;
@@ -8,20 +9,25 @@
 }
 
 .contact{
-    background: #f1f1f1;
+    background-image: url(./images/portf-img/3cab4cdb2603f3de485b64df9b1a9031.jpeg);
     min-height: 100vh;
-    background: url(images/windows.jpg);
+}
+
+.arbres-transition section {
+    background: url(./images/portf-img/wallhaven-xlqool.png);
+    min-height: 30vh;
 }
 
 .contact h1 {
     text-align: center;
-    color: #033E8C;
+    color: #fff;
     margin-top: 100px;
+    font-size: 3rem;
 }
 
-.contact-p p { /* Texte avant les icones et cases contenant les coordonnées */
+.contact-p p {
     text-align: center;
-    color: #033E8C;
+    color: #fff;
     font-size: 1.5rem;
 }
 
@@ -41,7 +47,7 @@
 }
 
 .card {
-    background:   #09519ea1  ;
+    background: #588c82e3;
     padding: 0 20 px;
     margin: 0 50px;
     width: 49vh;
@@ -50,31 +56,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
+    color: white;
     cursor: pointer;
     border-radius: 45px;
+    font-family: "Font Awesome 6 Free";
 }
 
 .card a {
     text-decoration: none;
     color: white;
+    font-family: 'Alata', sans-serif;
 }
 
 .card-icon {
     font-size: 28px;
-    background: #6fc8ff;
+    background: #d1c9b2;
     width: 60px;
     height: 60px;
     text-align: center;
     line-height: 60px !important;
     border-radius: 50%;
     transition: 0.3s linear;
+    font-family: "Font Awesome 6 Free";
 }
 
 .card:hover .card-icon {
     background: none;
-    color: #6fc8ff;
-    transform: scale(1.6)
+    color: #d1c9b2;
+    transform: scale(1.6);
+    font-family: "Font Awesome 6 Free";
 }
 
 .card p{
@@ -86,11 +96,13 @@
     max-height: 0;
     opacity: 0;
     transition: 0.3s linear;
+    font-family: 'Alata', sans-serif;
 }
 
 .card:hover p {
     max-height: 40px;
     opacity: 1;
+    font-family: 'Alata', sans-serif;
 }
 
 @media screen and (max-width:1000px) {
@@ -115,3 +127,17 @@
     }
    }
 
+.container-contact {
+    background-color: #6a988e;
+    border-radius: 51px;
+}
+
+@media(min-width:1201px){
+    .container-contact {
+        background-color: #6a988e;
+        margin-left: 222px;
+        margin-right: 222px;
+        padding-bottom: 20px;
+        border-radius: 51px;
+    }
+}
