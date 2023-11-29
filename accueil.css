@@ -125,7 +125,9 @@ nav {
         padding: 15px 20px;
         position: fixed;
         width: 100%;
+        z-index: 10000;
     }
+    
 
     .nav-icon {
         order: 2;

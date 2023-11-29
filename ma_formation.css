@@ -47,6 +47,7 @@ h2{
     background: #0c284a;
     position: relative;
     z-index: 56;
+    height: 120vh;
 }
 
 .qualification_container {
@@ -69,7 +70,7 @@ h2{
 }
 
 .qualification_button:hover {
-    color: #582480; /*surpasse les titres*/
+    color: #0c284a; /*surpasse les titres*/
 }
 
 .qualification_icon {
@@ -191,7 +192,7 @@ h2{
 
     .qualification_calendar {
         font-size: smaller;
-        color: #f0bbec;
+        color: #99bdd2;
         margin-left: 0;
     }
 
@@ -231,7 +232,17 @@ h2{
       .ineo,.spar {
         flex-direction: column;
       }
+
+      li {
+        margin-left: 30px;
+      }
       
+      .qualification {
+        background: #0c284a;
+        position: relative;
+        z-index: 56;
+        height: 185vh;
+      }
 }
 
 @media (max-width: 380px) {
