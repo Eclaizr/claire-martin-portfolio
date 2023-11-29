@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Arya&family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=DM+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
 
 body {
     background: #080808;
 }
 
 #header {
-    background-image: url('images/work.jpeg');
-    height: 75vh;
+    background-image: url('images/formation/cyber.jpg');
+    height: 45vh;
     background-size: cover;
     background-position: center;
     padding: 1px;
     text-align: center;
+    opacity: 0.8;
+    z-index: 2;
+    position: relative;
 }
 
 *{
@@ -38,14 +44,17 @@ h2{
 }
 
 .qualification {
-    background: #582480;
+    background: #0c284a;
+    position: relative;
+    z-index: 56;
 }
 
 .qualification_container {
-    background: #b991e1;
+    background: #fff;
     height: fit-content;
     padding-bottom: 50px;
     margin-top: 65px;
+    border-radius: 40px;
   }
 
 .qualification_button {
@@ -95,8 +104,14 @@ h2{
 
 .qualification_calendar {
     font-size: smaller;
-    color: #300e4d;
+    color: #8bb4cc;
     margin-left: 120px;
+}
+
+.qualification_calendar-pro {
+    font-size: smaller;
+    color: #99bdd2;
+    margin-left: 0px;
 }
 
 .qualification_rounder {
@@ -154,7 +169,7 @@ h2{
       }
       
       .qualification_container {
-        background: rgba(255, 255, 255, 0.496);
+        background: #fff;
         height: 160vh;
         margin-top: 20px;
       }
@@ -198,6 +213,7 @@ h2{
         display: grid;
         grid-template-columns: 1fr max-content 1fr;
         column-gap: 0;
+        margin-right: -26px;
       }
 
       .qualification_data .quali_un {
@@ -210,6 +226,10 @@ h2{
       .qualification_icon {
         font-size: 3.6rem;
         margin-right: 25px;
+      }
+
+      .ineo,.spar {
+        flex-direction: column;
       }
       
 }
@@ -261,3 +281,57 @@ h2{
     align-items: center;
 }
 
+#header h1 {
+    margin-top: 100px;
+    color: #fff;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 3rem;
+}
+
+@media (min-width: 1200px) {
+    .qualification_container {
+        background: #fff;
+        height: fit-content;
+        padding-bottom: 50px;
+        margin-top: 65px;
+        border-radius: 40px;
+        padding: 35px;
+    }
+}
+
+
+span {
+    color: #99bdd2;
+}
+
+.container-work {
+    display: flex;
+    flex-direction: row; /* Met les éléments en colonne */
+}
+
+.ineo {
+    border-bottom: 1px solid #000; /* Ajoute une bordure en bas pour la séparation */
+    padding-bottom: 10px; /* Espace entre les sections */
+    display: flex;
+}
+
+.ineo-work, .spar-work{
+    width: 30%;
+    margin-left: 39%;
+    margin-top: 80px;
+}
+
+.title {
+    color: #70bd95;
+}
+
+.jobs-etudiant {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 9px;
+}
+
+h3 {
+    color: #436ea2;
+}

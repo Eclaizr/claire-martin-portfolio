@@ -17,3 +17,11 @@ onglets.forEach(onglet => {
         onglet.classList.add('qualification_active');
     });
 });
+
+const typed = new Typed('.multiple-text-formation', {
+    strings: ['Ma formation','étudiante'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+})
