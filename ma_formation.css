@@ -120,7 +120,7 @@ h2{
     width: 13px;
     height: 13px;
     background-color: #05050593;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .horizontal {
@@ -241,7 +241,7 @@ h2{
         background: #0c284a;
         position: relative;
         z-index: 56;
-        height: 197vh;
+        height: 245vh;
       }
 }
 
