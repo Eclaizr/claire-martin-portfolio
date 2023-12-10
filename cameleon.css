@@ -1,6 +1,8 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arya&family=Rubik+Marker+Hatch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 
 /* General Styling */
 body {
@@ -32,7 +34,11 @@ body {
 }
 
 #header-thales {
-  background: url('images/thales-sniffer.png');
+  background: url('images/portf-img/pexels-pixabay-220201.jpg');
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
   background: contain;
   height: 40vh;
   background-size: cover;
@@ -40,14 +46,14 @@ body {
   background-repeat: no-repeat;
   padding: 1px;
   text-align: center;
+  opacity: 0.8;
 }
-
 .head-text h1 {
   font-size: 60px;
   margin-top: 125px;
   text-align: center;
   color: #fff;
-  font-family: 'Rubik Marker Hatch', cursive;
+  font-family: 'Days One', sans-serif;
 }
 
 /* Project Description Styles */
@@ -80,16 +86,16 @@ body {
 }
 
 .desc-detail-thales {
-  grid-template-columns: 2fr 1fr; /* Adjust the values as needed */
+  grid-template-columns: 2fr 1fr;
   margin-top: 20px;
   margin-left: 40px;
   margin-right: 40px;
   padding: 15px;
   border-radius: 5px;
   font-family: 'Alata', sans-serif;
-  background-color: #20107aba;
-  color: white;
-  overflow: hidden; /* Add this line to remove overflow */
+  background-color: #2600ff26;
+  color: black;
+  overflow: hidden;
 }
 
 .desc-detail {
@@ -157,10 +163,23 @@ ul {
   
 }
 
+
+@media (min-width: 1200px) {
+  .preuves-thales {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 @media (max-width: 750px) {
   .head-text h1 {
     font-size: 60px;
     margin-top: 100px;
+  }
+
+  .head-text .h1-thales {
+    font-size: 60px;
+    margin-top: 30px;
   }
 
   .desc-title,
@@ -169,6 +188,10 @@ ul {
   .li-chat,
   .li-thales {
     margin-left: 10px;
+  }
+
+  .desc-title .thales-desc-title p{
+    margin-left: 40px;
   }
 
   .container-chameleon, .container-site-chat, .container-thales {
@@ -199,6 +222,7 @@ ul {
   }
 
 }
+
 
 /* Button Styles */
 .button_slide {
@@ -232,6 +256,27 @@ ul {
   margin-bottom: 6vh;
   font-family: 'Alata', sans-serif;
   margin-left: 17vh;
+}
+
+.button_slide_thales {
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #fff;
+  transition: ease-out 0.4s;
+  text-decoration: none;
+  margin-bottom: 6vh;
+  font-family: 'Alata', sans-serif;
+  margin-left: 17vh;
+  height: 70px;
+  margin-top: 150px;
+  margin-left: 160px;
+  margin-right: 100px;
 }
 
 .slide_down:hover {
@@ -273,10 +318,11 @@ a {
   border-radius: 10px;
 }
 
-.logo-thales{
+.logo-thales {
   margin-left: 0%;
   margin-top: 88px;
   border-radius: 10px;
+  width: 400px;
 }
 
 #diagramme-cameleon {
@@ -300,7 +346,7 @@ h3 {
 }
 
 #description-thales {
-  background-color: #0001169e ;
+  background-color: #71c3ff45 ;
 }
 
 
@@ -311,4 +357,46 @@ h3 {
 
 .contain-thales {
   display: flex;
+}
+
+.slider-container {
+  position: relative;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 0 0 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.slide-button {
+  position: absolute;
+  top: 108%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #333;
+  color: #fff;
+}
+
+.prev {
+  left: 0px;
+}
+
+.next {
+  right: 10px;
 }
