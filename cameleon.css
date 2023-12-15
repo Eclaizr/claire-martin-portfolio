@@ -844,3 +844,22 @@ h3 {
 .menu-options a:hover {
   background-color: #9be1b6;
 }
+
+#slidy {
+  display: flex;
+  width: 200%; /* Deux fois la largeur pour accueillir les deux images */
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-0 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.img-slidy {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Pour centrer l'image horizontalement */
+}
