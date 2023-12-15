@@ -10,8 +10,19 @@ body {
   margin: 0;
 }
 
+
+
+.video-container {
+  margin-left: 40px;
+  margin-top: -115px;
+}
+
 #title-header{
   color: #d4b8a0;
+}
+
+.rapport-video {
+  display: flex;
 }
 
 /* Header Styles */
@@ -51,8 +62,32 @@ body {
   padding: 1px;
   text-align: center;
 }
+
+#header-sae21 {
+  background: url('images/portf-img/reseau_entreprise.jpeg');
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+  background: contain;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1px;
+  text-align: center;
+}
+
 .head-text h1 {
   font-size: 60px;
+  margin-top: 125px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Days One', sans-serif;
+}
+
+.head-text-sae21 {
+  font-size: 25px;
   margin-top: 125px;
   text-align: center;
   color: #fff;
@@ -102,6 +137,20 @@ body {
 
 }
 
+.desc-detail-sae21 {
+  grid-template-columns: 2fr 1fr;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Alata', sans-serif;
+  background-color: #7b74a326;
+  color: black;
+  overflow: hidden;
+
+}
+
 .desc-detail {
   margin-top: 20px;
   margin-left: 40px;
@@ -132,10 +181,8 @@ body {
   grid-column: 2 / 3;
 }
 
-.li-chameleon,
-.li-chat,
-.li-thales {
-  margin-top: 20px;
+.li-chameleon, .li-chat, .li-thales, .li-sae21 {
+  margin-top: 2px;
   margin-left: 40px;
   margin-right: 40px;
   font-family: 'Alata', sans-serif;
@@ -157,12 +204,27 @@ ul {
   .desc-detail,
   .li-chameleon,
   .li-chat,
-  .li-thales {
+  .li-thales,
+  .li-sae21 {
     margin-left: 20px;
   }
 
   .button_slide_chat {
     margin-left: 9vh;
+  }
+
+  .head-text-sae21 {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Days One', sans-serif;
+  }
+
+  .container-sae21 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
   }
   
 }
@@ -172,6 +234,12 @@ ul {
   .preuves-thales {
     display: flex;
     flex-direction: row;
+  }
+
+  .sae21-text {
+    margin-left: 40px;
+    margin-top: -50px;
+    margin-bottom: -10px;
   }
 
   .button_slide_thales {
@@ -191,8 +259,33 @@ ul {
     margin: unset;
   }
 
+  .button_slide_sae21 {
+    color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #fff;
+    transition: ease-out 0.4s;
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+    height: 70px;
+    margin: unset;
+    margin-left: 100px;
+  }
+
   .thales_button_container{
     justify-content: space-between;
+  }
+
+  .container-sae21 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -110px;
   }
 }
 
@@ -271,6 +364,7 @@ a {
   margin-top: 20px;
 }
 
+
 /* Description and Photo Styles */
 #description,
 #description-chat,
@@ -297,6 +391,11 @@ a {
   width: 400px;
 }
 
+.logo-sae21 {
+  width: 90%;
+  margin-top: 17%;
+}
+
 #diagramme-cameleon {
   width: 61%;
 }
@@ -318,7 +417,7 @@ h3 {
 }
 
 #description-thales {
-  background-color: #71c3ff45 ;
+  background-color: #71a1ec4d ;
 }
 
 
@@ -328,6 +427,10 @@ h3 {
 }
 
 .contain-thales {
+  display: flex;
+}
+
+.container-sae21 {
   display: flex;
 }
 
@@ -392,7 +495,8 @@ h3 {
   .desc-detail,
   .li-chameleon,
   .li-chat,
-  .li-thales {
+  .li-thales,
+  .li-sae21 {
     margin-left: 10px;
   }
 
@@ -427,6 +531,11 @@ h3 {
     flex-direction: column;
   }
 
+  .contain-sae21 {
+    display:flex;
+    flex-direction: column;
+  }
+
   .slide-button{
     padding : 18px 18px;
   }
@@ -437,6 +546,12 @@ h3 {
 
   .slider-container{
     margin-top: 0px;
+  }
+
+  .rapport-video {
+    display: flex;
+    margin-top: 160px;
+    flex-direction: column;
   }
 
 }
