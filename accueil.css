@@ -26,9 +26,9 @@ nav {
     padding: 15px 25px;
     background: #ffffff;
     box-shadow: inset 0px -1px 0px #c5c5c6;
-    margin-bottom:0px;
-    top:0;
-    z-index: 10;
+    margin-bottom: 0px;
+    top: 0;
+    z-index: 130;
 }
 
 /* Configuration de l'icone à côté de mon Nom + Prénom */
