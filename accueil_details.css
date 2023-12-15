@@ -903,11 +903,3 @@ a.slide-link{
         margin-right: 50px;
     }
 }
-
-/* Don't need button navigation */
-@supports (scroll-snap-type) {
-    .slider > a {
-      display: none;
-    }
-}
-
