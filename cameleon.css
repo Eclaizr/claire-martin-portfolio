@@ -664,13 +664,14 @@ h3 {
   }
   
   /* Responsive Iphone */
-  #header-infographie {
+  #header-infographie, #header-chat, #header-sae21, #header-thales, #header-hygiène, #header-chameleon {
     width: 48vh;
   }
 
-  .comm-section {
+  .comm-section, .réseau-section, .informatique-section {
     margin-left: 20px;
   }
+
 
   .comm-section {
     background: #b0ddc0;
