@@ -159,44 +159,60 @@ h2{
     #img_isen {
         width: 30%;
         display: none;
+    }
+
+    .jobs-etudiant {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        border-radius: 9px;
+        height: 100vh;
       }
+
+    .ineo-work, .spar-work {
+        width: 50%;
+        margin-left: 20%;
+        margin-top: 0px;
+}
 
     .qualification_button {
         font-size: var(--h3-font-size);
         font-weight: var(--font-mediul);
         cursor: pointer;
         border-style: none;
-        margin-left: 78px;
-      }
+        margin-left: 50px;
+    }
+
+    
 
       .qualification_icon {
         font-size: 4.6rem;
         margin-right: var(--mb-0-25);
       }
       
-      .qualification_container {
+    .qualification_container {
         background: #fff;
-        height: 160vh;
+        height: 210vh;
         margin-top: 20px;
-      }
+    }
 
-      .qualification_rounder {
+    .qualification_rounder {
         display: none;
-      }
+    }
 
-      .div_img_right {
+    .div_img_right {
         display: none;
-      }
+    }
 
-      .qualification_line {
+    .qualification_line {
         display: none;
-      }
+    }
 
-      .qualification_title {
+    .qualification_title {
         font-size: 1.2rem;
         font-weight: var(--font-medium);
         margin-left: 0;
-      }
+    }
 
       
     .qualification_subtitle {
@@ -259,7 +275,7 @@ h2{
         background: #0c284a;
         position: relative;
         z-index: 56;
-        height: 245vh;
+        height: 270vh;
       }
 }
 
@@ -326,6 +342,12 @@ h2{
         border-radius: 40px;
         padding: 35px;
     }
+
+    .ineo-work, .spar-work {
+        width: 30%;
+        margin-left: 39%;
+        margin-top: 80px;
+     }
 }
 
 
@@ -342,12 +364,6 @@ span {
     border-bottom: 1px solid #000; /* Ajoute une bordure en bas pour la séparation */
     padding-bottom: 10px; /* Espace entre les sections */
     display: flex;
-}
-
-.ineo-work, .spar-work{
-    width: 30%;
-    margin-left: 39%;
-    margin-top: 80px;
 }
 
 .title {
