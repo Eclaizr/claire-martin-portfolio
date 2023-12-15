@@ -156,6 +156,11 @@ h2{
 
 @media (max-width: 1100px) {
 
+    #img_isen {
+        width: 30%;
+        display: none;
+      }
+
     .qualification_button {
         font-size: var(--h3-font-size);
         font-weight: var(--font-mediul);
