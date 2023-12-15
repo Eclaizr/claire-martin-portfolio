@@ -51,7 +51,7 @@ body {
 
 .video-container {
   margin-left: 40px;
-  margin-top: -115px;
+  margin-top: -90px;
 }
 
 #title-header{
@@ -380,7 +380,6 @@ ul {
 
   .sae21-text {
     margin-left: 40px;
-    margin-top: -50px;
     margin-bottom: -10px;
   }
 
@@ -655,7 +654,7 @@ h3 {
 @media (max-width: 1200px) {
   .head-text h1 {
     font-size: 60px;
-    margin-top: 85px;
+    margin-top: 50px;
   }
 
   .video-container {
