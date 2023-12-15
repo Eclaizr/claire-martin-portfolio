@@ -589,28 +589,7 @@ footer {
 #arrow {
     display: block;
   }
-  
-  /* Requête pour cacher l'élément lorsque la fenêtre est réduite à 600 pixels ou moins */
-  @media (max-width: 600px) {
-    #arrow {
-        margin-left: 10%;
-    }
-    .skills_container {
-        row-gap: 0;
-        margin-top: -65px;
-    }
 
-    .section_title {
-        margin-top: 0px;
-        text-align: center;
-    }
-
-    .hard {
-        margin-top: 20px;
-        text-align: center;
-    }
-    
-  }
 
 /* Drapeaux !!!!! */
 
@@ -707,3 +686,228 @@ a:link {
     text-decoration: none;
     color: black;
 }
+
+.centre-interet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 90px;
+    padding-bottom: 75px;
+}
+
+.interet-title{
+    text-align: center;
+    font-family: 'Alata';
+    font-size: 6vh;
+    color: #036652a3
+}
+
+.interet-container{
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill , minmax(270px , 1fr));*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4rem;
+    margin-top: 30px;
+}
+
+div.interet{
+    background-color: #036652;
+    font-family: 'Alata';
+    padding: 25px;
+    border-radius: 35px;
+}
+
+p.interet#title{
+    font-size: 3vh;
+    color: #fae0c5;
+    margin-bottom: 20px;
+}
+
+div.interet#crochet{
+    background-image: url(images/interet/Crochet.webp);
+}
+
+div.interet#astronomie{
+    background-image: url(images/interet/Astronomie.webp);
+}
+
+div.interet#dessin{
+    background-image: url(images/interet/corbak.webp);
+}
+
+div.interet#informatique{
+    background-image: url(images/interet/Informatique.webp);
+}
+
+div.interet#arduino{
+    background-image: url(images/interet/Arduino.webp);
+}
+
+#slide-1{
+    background-image: url(images/caroussel/crochet.webp);
+}
+#slide-2{
+    background-image: url(images/caroussel/astronomie.jpg);
+    background-position: bottom;
+}
+#slide-3{
+    background-image: url(images/caroussel/dessin.jpeg);
+}
+#slide-4{
+    background-image: url(images/caroussel/informatique.jpg);
+}
+#slide-5{
+    background-image: url(images/caroussel/arduino.jpg);
+}
+
+.slider {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  
+.slides {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 15px;
+  
+  
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 384px;
+  height: 300px;
+  border-radius: 10px;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  overflow: hidden;
+}
+
+.slide-element:hover{
+    backdrop-filter: blur(10px);
+    transition: linear;
+}
+/*
+.slides > div:target {
+   transform: scale(0.8);
+} */
+
+.author-info {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0.75rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+.author-info a {
+  color: white;
+}
+
+.slides img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s linear;
+  border-radius: 10px;
+}
+
+.slides img:hover{
+    filter: blur(2px);
+}
+
+.slide-element{
+    background-size: cover;
+}
+
+
+p.slide-text{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 5% 0;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Alata', sans-serif;
+    position: absolute;
+    top: 60%;
+}
+
+  
+/* Requête pour cacher l'élément lorsque la fenêtre est réduite à 600 pixels ou moins */
+@media (max-width: 600px) {
+  #arrow {
+      margin-left: 10%;
+  }
+  .skills_container {
+      row-gap: 0;
+      margin-top: -65px;
+  }
+  .section_title {
+      margin-top: 0px;
+      text-align: center;
+  }
+  .hard {
+      margin-top: 20px;
+      text-align: center;
+  }
+  .slides > div{
+      width: 100%;
+  }
+  
+}
+
+a.slide-link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1500px) {
+    .slides > div{
+        margin-right: 50px;
+    }
+}
+
+/* Don't need button navigation */
+@supports (scroll-snap-type) {
+    .slider > a {
+      display: none;
+    }
+}
+

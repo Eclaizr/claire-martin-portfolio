@@ -1,0 +1,152 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    width: 75%;
+    background-color: #dfd9ff;
+    border-radius: 10px;
+    padding-top: 3%;
+}
+
+p.explication{
+    font-family: 'Alata';
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    max-width: 75%;
+}
+
+#first{
+    margin-top: 20px;
+}
+
+div.container{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.container#neowise{
+    justify-content: center;
+}
+
+.eclispe{
+    width: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 40px;
+}
+
+#titlediv{
+    background-color: #3b88bf;;
+    padding: 2% 0;
+}
+
+.slider {
+    width: 66%;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+.slides {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 15px;
+  
+  
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slide-element {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 384px;
+  height: 300px;
+  border-radius: 10px;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+.slides img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s linear;
+  border-radius: 10px;
+}
+
+.slide-element{
+    background-size: cover;
+}
+
+@media (max-width: 1200px) {
+    nav{
+        position: sticky;
+    }
+
+    div.container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eclispe{
+        margin-bottom: 10px;
+        width: 60%;
+    }
+
+    img#neowise{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .slide-element{
+        width: 80%;
+    }
+
+    .slide-element img{
+        width: 100%;
+        height: 80%;
+    }
+}

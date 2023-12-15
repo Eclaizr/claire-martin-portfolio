@@ -1,0 +1,112 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    width: 75%;
+    background-color: #dfd9ff;
+    border-radius: 10px;
+    padding: 3% 0;
+}
+
+#titlediv{
+    background-color: aquamarine;;
+    padding: 1% 0;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Alata';
+}
+
+#junimos{
+    width: 85%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    
+}
+
+p.explication{
+    font-family: 'Alata';
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    margin: 20px 0;
+    border-radius: 40px;
+}
+
+div#container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+div#PplusImg{
+    width: min-content;
+    flex: 0.6;
+}
+
+#bob1{
+    width: 40%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+#bob2{
+    width: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+h2{
+    text-decoration: underline ;
+}
+
+#willow{
+    width: 45%;
+    height: 45%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+@media (max-width: 1200px) {
+    nav{
+        position: sticky;
+    }
+}
+
+@media (max-width: 850px) {
+    div#container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#PplusImg{
+        width: 80%;
+    }
+
+    #willow{
+        width: 80%;
+    }
+
+    #bob1{
+        width: 80%;
+    }
+
+    #bob2{
+        width: 80%;
+    }
+    
+}

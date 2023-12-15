@@ -19,7 +19,7 @@
 <nav>
     <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
         <!-- <img src="images/chat.png" alt="cat's head"> -->
-        <p> <span>C</span>laire <span>M</span>artin</p>
+        <p> <span id="title-header">C</span>laire <span id="title-header">M</span>artin</p>
     </a>
 
     <div class="main-navlinks">
@@ -46,7 +46,7 @@
     <div id="header-chameleon">
         <div class="head-container">
             <div class="head-text">
-                <h1> Robot Caméleon </h1>
+                <h1> Robot Caméleon</h1>
             </div>
         </div>
     </div>
@@ -92,7 +92,7 @@
             <div id="header-chat">
                 <div class="head-container">
                     <div class="head-text">
-                        <h1> Site web sur les chats </h1>
+                        <h1> Site web sur les chats</h1>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
 <div id="header-thales">
     <div class="head-container">
         <div class="head-text">
-            <h1 class="h1-thales"> Projet sniffer ethernet </h1>
+            <h1 class="h1-thales"> Projet sniffer ethernet</h1>
         </div>
     </div>
 </div>
@@ -178,15 +178,16 @@
                         <img class="slide-img" src="./images/portf-img/trames.png" alt="Image 2">
                     </div>
                 </div>
-                <button class="prev slide-button" onclick="changeSlide(-1)">Previous</button>
-                <button class="next slide-button" onclick="changeSlide(1)">Next</button>
+                <div class="thales_button_container">
+                    <button class="prev slide-button" onclick="changeSlide(-1)">Previous</button>
+                    <button class="button-51 desc-detail-thales button_slide_thales slide_down" role="button"> <a target="_blank" href="files/SAE 24 - Rapport.pdf"> Visualiser le rapport </a></button>
+                    <button class="next slide-button" onclick="changeSlide(1)">Next</button>
+                </div>
+                <script src="script_slide.js"></script>
 
-            <script src="script_slide.js"></script>
+            </div>
 
         </div>
-
-        <button class="button-51 desc-detail-thales button_slide_thales slide_down" role="button"> <a target="_blank" href="files/SAE 24 - Rapport.pdf"> Visualiser le rapport </a></button>
-    </div>
 
         <!-- icons js-->
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
