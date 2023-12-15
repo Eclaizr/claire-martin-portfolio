@@ -658,18 +658,37 @@ h3 {
     margin-top: 100px;
   }
 
+  .video-container {
+    margin-left: 20px;
+    margin-top: -115px;
+  }
+  
+  /* Responsive Iphone */
+  #header-infographie {
+    width: 48vh;
+  }
+
+  .comm-section {
+    margin-left: 20px;
+  }
+
+  .comm-section {
+    background: #b0ddc0;
+    margin: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
   .head-text .h1-thales {
     font-size: 60px;
     margin-top: 30px;
   }
 
-  .desc-title,
-  .desc-detail,
-  .li-chameleon,
-  .li-chat,
-  .li-thales,
-  .li-sae21 {
-    margin-left: 10px;
+  .desc-title, .desc-detail, .li-chameleon, .li-chat, .li-thales, .li-sae21 {
+    margin-left: 40px;
   }
 
   .desc-title .thales-desc-title p{
