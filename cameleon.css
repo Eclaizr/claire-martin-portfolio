@@ -665,11 +665,15 @@ h3 {
   
   /* Responsive Iphone */
   #header-infographie, #header-chat, #header-sae21, #header-thales, #header-hygiène, #header-chameleon {
-    width: 48vh;
+    width: 103%;
   }
 
   .comm-section, .réseau-section, .informatique-section {
     margin-left: 20px;
+  }
+
+  .head-text-infographie {
+    font-size: 19px;
   }
 
 
