@@ -175,6 +175,18 @@ h2{
         margin-top: 20px;
       }
 
+      .qualification_rounder {
+        display: none;
+      }
+
+      .div_img_right {
+        display: none;
+      }
+
+      .qualification_line {
+        display: none;
+      }
+
       .qualification_title {
         font-size: 1.2rem;
         font-weight: var(--font-medium);
@@ -211,10 +223,11 @@ h2{
       }
 
       .qualification_data {
-        display: grid;
+        display: flex;
         grid-template-columns: 1fr max-content 1fr;
         column-gap: 0;
-        margin-right: -26px;
+        margin-right: 18px;
+        flex-direction: column;
       }
 
       .qualification_data .quali_un {
