@@ -49,6 +49,12 @@ body {
   margin-top: 20px;
 }
 
+.anglais-section {
+  background: #c798ee;
+  margin: 10px;
+  margin-top: 20px;
+}
+
 .video-container {
   margin-left: 40px;
   margin-top: -90px;
@@ -78,6 +84,17 @@ body {
 
 #header-hygiène {
   background: linear-gradient(to right,#f2e4c9, #c66359);
+  background: contain;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1px;
+  text-align: center;
+}
+
+#header-english {
+  background: linear-gradient(to right,#c798ee, #c6b059);
   background: contain;
   height: 40vh;
   background-size: cover;
@@ -168,6 +185,14 @@ body {
   margin-top: 50px;
   text-align: center;
   color: #000000;
+  font-family: 'Days One', sans-serif;
+}
+
+.head-text-english {
+  font-size: 25px;
+  margin-top: 125px;
+  text-align: center;
+  color: #482764;
   font-family: 'Days One', sans-serif;
 }
 
@@ -341,6 +366,14 @@ ul {
     margin-top: 140px;
   }
 
+  .head-text-english {
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    color: #482764;
+    font-family: 'Days One', sans-serif;
+  }
+
   .button_slide_sae21 {
     color: #fff;
     border: 2px solid rgba(0, 0, 0, 0.06);
@@ -406,7 +439,7 @@ ul {
 @media (min-width: 1500px) {
   .video-container {
     margin-left: 40px;
-    margin-top: -160px;
+    margin-top: -120px;
   }
 
 }
