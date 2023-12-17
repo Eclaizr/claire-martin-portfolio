@@ -863,3 +863,7 @@ h3 {
   display: block;
   margin: 0 auto; /* Pour centrer l'image horizontalement */
 }
+
+.little-menu a:link {
+  color:#000;
+}
