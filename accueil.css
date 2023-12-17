@@ -59,7 +59,7 @@ nav {
     font-weight: 500;
     font-family: 'Alata', sans-serif;
     text-decoration: none;
-    color: #818181;
+    color: #5d5d5d;
     display: inline-block;
     position: relative;
 }
@@ -355,7 +355,7 @@ img{
     font-size: 2rem;
     margin-left: 10px;
     font-weight: 400;
-    color: #818181;/*couleur du titre*/
+    color: #383838cf;
 }
 
 /* Corps de la page */
@@ -413,7 +413,7 @@ footer {
     font-weight: 500;
     font-family: 'Alata', sans-serif;
     text-decoration: none;
-    color: #818181;
+    color: #5d5d5d;
 }
 
 .sub-menu {

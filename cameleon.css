@@ -808,12 +808,12 @@ h3 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #3498db;
+  background-color: #75ce7d;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(227, 42, 120, 0.2);
 }
 
 .menu-icon {
@@ -828,7 +828,7 @@ h3 {
   position: absolute;
   bottom: 60px;
   right: 0;
-  background-color: #3498db;
+  background-color: #d7ecd9;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -862,8 +862,4 @@ h3 {
   height: auto;
   display: block;
   margin: 0 auto; /* Pour centrer l'image horizontalement */
-}
-
-.little-menu a:link {
-  color:#000;
 }
