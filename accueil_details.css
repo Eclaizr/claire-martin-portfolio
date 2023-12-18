@@ -58,7 +58,7 @@ section .about-content {
 .home-img img {
     width: 35vw;
     margin-top: 100px;
-    border-radius: 88px;
+    border-radius: 0px;
 }
 
 @keyframes floatImage {
@@ -199,8 +199,8 @@ section .about-content {
 
 /* Section about */
 .about-img img {
-    width: 25vw;
-    border-radius: 60px;
+    width: 29vw;
+    border-radius: 0px;
     margin-top: 95px;
 }
 
@@ -212,8 +212,9 @@ section .about-content {
 .about .about-content h2 {
     text-align: left;
     line-height: 1.2;
-    /* margin-top: 100px; */
-}
+    /*margin-top: 26px;*/
+    margin-bottom: 22px;
+  }
 
 .about-content h3 {
     font-size: 2.6rem;;
@@ -221,10 +222,10 @@ section .about-content {
 
 .about-content p {
     font-size: 1rem;
-    margin: 3rem 1px 4rem;
+    margin: 2rem 1px 4rem;
     background-color: #FAE0C5;
     padding: 40px;
-    border-radius: 28px;
+    border-radius: 0px;
 }
 
 /* footer */
