@@ -148,8 +148,8 @@ section .about-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
-    background: #649F94;;
+    gap: 6rem;
+    background: #649F94;
     padding-top: 0;
     padding-bottom: 80px;
     border-color: #000000;
@@ -639,7 +639,7 @@ footer {
 
 .flag-border {
     border: solid #3b645b00 2px;
-    border-radius: 30px;
+    border-radius: 0px;
     background-color: #42645d3d;
 }
 
@@ -668,18 +668,18 @@ footer {
 
 #hardskills {
     background-color: #FAE0C5;
-    border-radius: 22px;
+    border-radius: 0px;
     margin-top: -8px;
     margin-bottom: 35px;
-    padding: 28px;
+    padding: 23px;
 }
 
 #softskills {
     background-color: #FAE0C5;
-    border-radius: 22px;
+    border-radius: 0px;
     margin-top: -8px;
     margin-bottom: 35px;
-    padding: 28px;
+    padding: 23px;
 }
 
 a:link {
