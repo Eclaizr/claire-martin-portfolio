@@ -573,10 +573,9 @@ footer {
     outline: 2px solid #fff;
 }
 
-.port-content a  i {
+.port-content a i {
     font-size: 1.3rem;
-    color: var(--second-bg-color);
-
+    color: black;
 }
 
 .section_title {
