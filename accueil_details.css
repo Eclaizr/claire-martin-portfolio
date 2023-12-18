@@ -797,20 +797,21 @@ div.interet#arduino{
   background: transparent;
 }
 .slides > div {
-  scroll-snap-align: start;
-  flex-shrink: 0;
-  width: 384px;
-  height: 300px;
-  border-radius: 10px;
-  transform-origin: center center;
-  transform: scale(1);
-  transition: transform 0.5s;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 100px;
-  overflow: hidden;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 384px;
+    height: 300px;
+    border-radius: 10px;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    overflow: hidden;
+    margin-right: 40px;
 }
 
 .slide-element:hover{
