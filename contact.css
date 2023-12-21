@@ -28,7 +28,7 @@
 .contact-p p {
     text-align: center;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .contact-info-container {
@@ -58,7 +58,7 @@
     align-items: center;
     color: white;
     cursor: pointer;
-    border-radius: 45px;
+    border-radius: 0px;
     font-family: "Font Awesome 6 Free";
 }
 
@@ -135,9 +135,9 @@
 @media(min-width:1201px){
     .container-contact {
         background-color: #6a988e;
-        margin-left: 222px;
-        margin-right: 222px;
+        margin-left: 230px;
+        margin-right: 230px;
         padding-bottom: 20px;
-        border-radius: 51px;
+        border-radius: 2px;
     }
 }

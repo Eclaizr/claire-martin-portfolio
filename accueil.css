@@ -358,6 +358,22 @@ img{
     color: #135d4e;
 }
 
+.nav-icon .formation-p {
+    font-family: 'Alata', sans-serif;
+    font-size: 2rem;
+    margin-left: 10px;
+    font-weight: 400;
+    color: #585858;
+}
+
+.nav-icon .projets-p {
+    font-family: 'Alata', sans-serif;
+    font-size: 2rem;
+    margin-left: 10px;
+    font-weight: 400;
+    color: #585858;
+}
+
 /* Corps de la page */
 
 body {
