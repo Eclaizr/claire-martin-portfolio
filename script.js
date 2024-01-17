@@ -1,6 +1,6 @@
 /* ============================= typed js ============================= */
 const typed = new Typed('.multiple-text', {
-    strings: ['Étudiante', 'En alternance', 'En cybersécurité'],
+    strings: ['Technicienne', 'Réseaux', 'Systèmes'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
