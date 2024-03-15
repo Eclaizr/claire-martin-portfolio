@@ -586,7 +586,7 @@ footer {
 }
 
 /* Skills arrows */
-#arrow {
+.arrow {
     display: block;
   }
 
@@ -872,7 +872,7 @@ p.slide-text{
   
 /* Requête pour cacher l'élément lorsque la fenêtre est réduite à 600 pixels ou moins */
 @media (max-width: 600px) {
-  #arrow {
+  .arrow {
       margin-left: 10%;
   }
   .skills_container {

@@ -468,6 +468,12 @@ footer {
     font-family: 'Alata', sans-serif;
 }
 
+h6 {
+    font-size: 6vh;
+    font-family: 'Alata', sans-serif;
+    color: #135d4e;
+}
+
 h3 span {
     color: #FAE0C5;
 }
