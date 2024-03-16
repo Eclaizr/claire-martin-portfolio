@@ -2,14 +2,15 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" media="screen" type="text/css" href="accueil.css">
     <link rel="stylesheet" media="screen" type="text/css" href="accueil_plus.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="accueil_details.css">
     <link rel="stylesheet" media="screen" type="text/css" href="contact.css">
     <link rel="stylesheet" href="https://cdn.boxicons.com/2.0.7/css/boxicons.min.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="astronomie.css">
 
     <title>L'astronomie</title>
@@ -18,7 +19,7 @@
 
 <!-- BARRE DE MENU -->
     <nav>
-        <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
+        <a href="./accueil.html" class="nav-icon" aria-label="visit homepage" aria-current="page">
             <!-- <img src="images/chat.png" alt="cat's head"> -->
             <p> <span>C</span>laire <span>M</span>artin</p>
         </a>
@@ -46,6 +47,7 @@
         </div>
     </nav>
 
+<div class="container-astro">
     <div class="centered" id="titlediv">
         <h1>L'astronomie</h1>
     </div>
@@ -65,16 +67,16 @@
         </p>
         <div class="container">
 
-            <img src="images/page_astro/eclipse1.webp" alt="Lune pendant une éclipse lunaire" class="eclispe">
-            <img src="images/page_astro/eclipse2.webp" alt="Lune pendant une éclipse lunaire" class="eclispe">
-            <img src="images/page_astro/eclipse3.webp" alt="Lune pendant une éclipse lunaire" class="eclispe">
+            <img src="images/page_astro/eclipse1.webp" alt="Lune pendant une éclipse lunaire" class="eclipse">
+            <img src="images/page_astro/eclipse2.webp" alt="Lune pendant une éclipse lunaire" class="eclipse">
+            <img src="images/page_astro/eclipse3.webp" alt="Lune pendant une éclipse lunaire" class="eclipse">
         </div>
 
         <p class="explication">
             Comète Neowise, 10 juillet 2020
         </p>
         <div class="container" id="neowise">
-            <img src="images/page_astro/neowise.webp" alt="Comète neowise" class="eclispe" id="neowise">
+            <img src="images/page_astro/neowise.webp" alt="Comète neowise" class="eclipse">
         </div>
 
         <p class="explication">
@@ -82,39 +84,51 @@
         </p>
         <div class="slider">
             <div class="slides">
-              <div class="slide-element" id="slide-1">
-                <img src="images/page_astro/lune1.webp">
+              <div class="slide-element">
+                <img alt="photo de la Lune" src="images/page_astro/lune1.webp">
               </div>
 
-              <div class="slide-element" id="slide-1">
-                <img src="images/page_astro/lune2.webp">
+              <div class="slide-element">
+                <img alt="photo de la Lune" src="images/page_astro/lune2.webp">
               </div>
 
-              <div class="slide-element" id="slide-1">
-                <img src="images/page_astro/lune3.webp">
+              <div class="slide-element">
+                <img alt="photo de la Lune" src="images/page_astro/lune3.webp">
               </div>
 
-              <div class="slide-element" id="slide-1">
-                <img src="images/page_astro/lune4.webp">
+              <div class="slide-element">
+                <img alt="photo de la Lune" src="images/page_astro/lune4.webp">
               </div>
 
-              <div class="slide-element" id="slide-1">
-                <img src="images/page_astro/lune5.webp">
+              <div class="slide-element">
+                <img alt="photo de la Lune" src="images/page_astro/lune5.webp">
               </div>        
             </div>
           </div>
 
 
     </div>
-
+</div> <!--end of container-->
 
     <footer>
         <div class="footer-content">
             <p class="footer-text">© Claire MARTIN</p>
                 <div class="footer-iconTop">
                 </div>
+
+            <p>
+                <a href="https://validator.w3.org/">
+                    <img style="border:0;width:88px;height:50px"
+                        src="images/w3c/html5css3.png"
+                        alt="Valid HTML5 & CSS3!">
+                </a>
+            </p>
         </div>
     </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="accueil.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>

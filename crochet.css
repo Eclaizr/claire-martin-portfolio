@@ -1,20 +1,11 @@
 body{
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-div.centered{
+.container-crochet {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
     flex-direction: column;
-    width: 75%;
-    background-color: #dfd9ff;
-    border-radius: 10px;
-    padding: 3% 0;
+    align-items: center;
 }
 
 #titlediv{
@@ -22,13 +13,18 @@ div.centered{
     padding: 1% 0;
 }
 
-h1{
-    font-size: 60px;
-    font-family: 'Alata';
+div.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 15px;
+    width: 80%;
 }
 
 #junimos{
-    width: 85%;
+    width: 80%;
     object-fit: cover;
     object-position: 50% 50%;
     
@@ -47,10 +43,13 @@ img{
     border-radius: 40px;
 }
 
-div#container{
+.container {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 80%;
+    background-color: #ffe1e1;
+    border-radius: 1%;
+    margin: 10px;
 }
 
 div#PplusImg{
@@ -88,7 +87,7 @@ h2{
 }
 
 @media (max-width: 850px) {
-    div#container{
+    .container{
         flex-direction: column;
         align-items: center;
     }

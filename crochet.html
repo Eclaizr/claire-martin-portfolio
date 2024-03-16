@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" media="screen" type="text/css" href="accueil.css">
     <link rel="stylesheet" media="screen" type="text/css" href="accueil_details.css">
     <link rel="stylesheet" media="screen" type="text/css" href="accueil_plus.css">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.boxicons.com/2.0.7/css/boxicons.min.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="crochet.css">
     
     <title>Le crochet</title>
@@ -19,7 +19,7 @@
 
 <!-- BARRE DE MENU -->
     <nav>
-        <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
+        <a href="./accueil.html" class="nav-icon" aria-label="visit homepage" aria-current="page">
             <!-- <img src="images/chat.png" alt="cat's head"> -->
             <p> <span>C</span>laire <span>M</span>artin</p>
         </a>
@@ -47,15 +47,17 @@
         </div>
     </nav>
 
+<div class="container-crochet">
     <div class="centered" id="titlediv">
         <h1>Le crochet</h1>
     </div>
 
+
     <div class="centered">
-        <h2>Reproductions de "Junimos"</h2>
+        <h2>Reproduction de "Junimos"</h2>
         <img src="images/page_crochet/junimo.jpg" alt="Junimo (personnages du jeu Stardew Valley)" id="junimos">
         
-        <div id="container">
+        <div class="container">
             <div id="PplusImg">
                 <p class="explication">Les Junimos sont des petits personnages provenant d'un jeu vidéo intitulé : «Stardew Valley». Voici leur apparence en jeu :</p>
                 <img src="images/page_crochet/junimo.gif" alt="junimo-stardew-valley.gif" style="width:100%;object-fit:cover">
@@ -64,21 +66,37 @@
         </div>
     </div>
 
-    <div class="centered">
-        <h2>Réalisation de bob en crochet :</h2>
-        <div id="container" >
-            <img src="images/page_crochet/bob1.webp" alt="Bob en crochet" id="bob1">
-            <img src="images/page_crochet/bob2.webp" alt="Bob en crochet" id="bob2">
-        </div>
+<div class="centered">
+    <h2>Réalisation de bobs en crochet :</h2>
+    <div class="container" >
+        <img src="images/page_crochet/bob1.webp" alt="Bob en crochet" id="bob1">
+        <img src="images/page_crochet/bob2.webp" alt="Bob en crochet" id="bob2">
     </div>
+</div>
 
+
+</div> <!--container end-->
+
+</div>
 
     <footer>
         <div class="footer-content">
             <p class="footer-text">© Claire MARTIN</p>
                 <div class="footer-iconTop">
                 </div>
+            
+                <p>
+                    <a href="https://validator.w3.org/">
+                        <img style="border:0;width:88px;height:50px"
+                            src="images/w3c/html5css3.png"
+                            alt="Valid HTML5 & CSS3!">
+                    </a>
+                </p>
         </div>
     </footer>
-    
+
+    <!-- JAVASCRIPT -->
+    <script src="accueil.js"></script>
+    <script src="script.js"></script>
 </body>
+</html>
