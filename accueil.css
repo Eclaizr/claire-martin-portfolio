@@ -496,3 +496,8 @@ h3 span {
     margin-top: 20px;
     animation: floatImage 2s ease-in-out infinite;
 }
+
+.citation {
+    color: black;
+    text-align: left;
+}
