@@ -60,13 +60,13 @@ body {
   margin-top: -90px;
 }
 
-#title-header{
+.title-header{
   color: #d4b8a0;
 }
 
 .rapport-video {
   display: flex;
-  margin-top: -30px;
+  margin-top: -10px;
   border-radius: 20px;
 }
 
@@ -313,7 +313,7 @@ body {
 }
 
 .li-chameleon, .li-chat, .li-thales, .li-sae21 {
-  margin-top: 2px;
+  margin-top: 8px;
   margin-left: 40px;
   margin-right: 40px;
   font-family: 'Alata', sans-serif;
@@ -325,7 +325,7 @@ ul {
 }
 
 .button_slide_info {
-  color: #fff;
+  color: #000000;
   border: 2px solid rgba(0, 0, 0, 0.06);
   border-radius: 30px;
   padding: 18px 36px;
@@ -346,7 +346,7 @@ ul {
 }
 
 .button_slide_sae21 {
-  color: #fff;
+  color: #000000;
   border: 2px solid rgba(0, 0, 0, 0.06);
   border-radius: 30px;
   padding: 18px 36px;
@@ -401,7 +401,7 @@ ul {
   }
 
   .button_slide_sae21 {
-    color: #fff;
+    color: #000000;
     border: 2px solid rgba(0, 0, 0, 0.06);
     border-radius: 30px;
     padding: 18px 36px;
@@ -415,6 +415,7 @@ ul {
     margin-bottom: 6vh;
     font-family: 'Alata', sans-serif;
     margin-left: 7vh;
+    margin-right: 24vh;
   }
 
   .informatique-section {
@@ -539,7 +540,7 @@ ul {
   }
 
   .button_slide_sae21 {
-    color: #fff;
+    color: #000000;
     border: 2px solid rgba(0, 0, 0, 0.06);
     border-radius: 30px;
     padding: 18px 36px;
@@ -551,16 +552,16 @@ ul {
     transition: ease-out 0.4s;
     text-decoration: none;
     font-family: 'Alata', sans-serif;
-    height: 70px;
+    height: 20px;
     margin: unset;
     margin-left: unset;
-    margin-left: 100px;
+    margin-left: 80px;
   }
 
  
 
   .button_slide_info {
-    color: #fff;
+    color: #000000;
     border: 2px solid rgba(0, 0, 0, 0.06);
     border-radius: 30px;
     padding: 18px 36px;
@@ -596,7 +597,7 @@ ul {
 
 /* Button Styles */
 .button_slide {
-  color: #fff;
+  color: #000000;
   border: 2px solid rgba(0, 0, 0, 0.06);
   border-radius: 30px;
   padding: 18px 36px;
@@ -612,7 +613,7 @@ ul {
 }
 
 .button_slide_chat {
-  color: #fff;
+  color: #000000;
   border: 2px solid rgba(0, 0, 0, 0.06);
   border-radius: 30px;
   padding: 18px 36px;
@@ -629,7 +630,7 @@ ul {
 }
 
 .button_slide_thales {
-  color: #fff;
+  color: #000000;
     border: 2px solid rgba(0, 0, 0, 0.06);
     border-radius: 30px;
     padding: 18px 36px;
@@ -642,7 +643,7 @@ ul {
     text-decoration: none;
     margin-bottom: 6vh;
     font-family: 'Alata', sans-serif;
-    height: 70px;
+    height: 20px;
     margin: unset;
   
 }
@@ -670,11 +671,13 @@ a {
 
 /* Description and Photo Styles */
 #description,
-#description-chat,
-#description-thales {
+#description-chat {
   flex: 2;
 }
 
+.description-thales{
+  flex: 2;
+}
 .photo-cameleon {
   width: 32%;
   margin-top: 0px;
@@ -683,7 +686,7 @@ a {
 .photo-chat {
   width: 55%;
   margin-left: 15%;
-  margin-top: 88px;
+  margin-top: 21px;
   border-radius: 10px;
 }
 
@@ -719,7 +722,7 @@ h3 {
   justify-content: space-evenly;
 }
 
-#description-thales {
+.description-thales {
   background-color: #71a1ec4d ;
 }
 
@@ -893,10 +896,10 @@ h3 {
 }
 
 .menu-button {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  background-color: #75ce7d;
+  background-color: #474d71;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -914,9 +917,9 @@ h3 {
 .menu-options {
   display: none;
   position: absolute;
-  bottom: 60px;
+  bottom: 80px;
   right: 0;
-  background-color: #d7ecd9;
+  background-color: #474d71;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -924,13 +927,13 @@ h3 {
 .menu-options a {
   display: block;
   padding: 10px;
-  color: #239c3b;
+  color: #fff;
   text-decoration: none;
   text-align: center;
 }
 
 .menu-options a:hover {
-  background-color: #9be1b6;
+  background-color: #5e6380;
 }
 
 #slidy {
@@ -956,3 +959,6 @@ h3 {
   display: flex;
 }
 
+iframe {
+  border: none; /* Retire la bordure */
+}

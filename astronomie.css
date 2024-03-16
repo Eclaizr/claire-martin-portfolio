@@ -10,15 +10,24 @@ body{
     align-items: center;
 }
 
-div.centered{
+.container-astro {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+div.centered {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     flex-direction: column;
     background-color: #dfd9ff;
-    border-radius: 0px;
+    border-radius: 10px;
     padding-top: 3%;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
 }
 
 p.explication{
@@ -53,7 +62,11 @@ div.container{
 
 #titlediv{
     background-color: #3b88bf;;
-    padding: 2% 0;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .slider {
