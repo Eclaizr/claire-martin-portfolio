@@ -231,7 +231,7 @@ section .about-content {
 /* footer */
 footer {
     background: #f4f4f6;
-    padding: 1rem 9%;
+    padding: 0rem 9%;
 }
 
 /* Styles pour le conteneur du contenu du footer */
